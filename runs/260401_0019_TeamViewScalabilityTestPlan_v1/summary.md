@@ -107,3 +107,21 @@
   - 本地截图
   - 远端截图
   - 部署摘要
+
+## 本轮执行结果
+- 逻辑测试：
+  - `node --test tests/private_usage_service.test.mjs`
+  - 结果：`pass 3 / fail 0`
+- 本地 dense preview 已自验通过：
+  - `screenshots/dense_team_default_v1.png`
+  - `screenshots/dense_team_member_selected_v2.png`
+  - `screenshots/dense_team_member_view_v1.png`
+  - `screenshots/dense_team_window_dragged_v2.png`
+- 远端已部署并复验：
+  - 网页返回已包含 `memberSelect`
+  - 网页返回已包含 `团队当前周期排名`
+  - 网页返回已包含 `All members sorted by current period`
+  - 远端截图：
+    - `remote_screenshots/remote_team_default_v2.png`
+- GitHub：
+  - private repo: `https://github.com/sweellan/private-ai-usage-service-pilot`
