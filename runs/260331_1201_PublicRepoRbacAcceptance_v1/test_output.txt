@@ -1,0 +1,13 @@
+✔ admin bootstrap and member key issuance are stored in state (2.355584ms)
+✔ member can upload and see self data but cannot access admin dashboard (27.169458ms)
+✔ admin can view global dashboard after two member uploads (19.556666ms)
+✔ setup page is secretless and does not expose real issued keys (2.610875ms)
+✔ public-repo-ready client syncs a real token report into the RBAC server (3.884291ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 99.82725

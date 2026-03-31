@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-03-21T16:55:51",
+  "task_label": "vibe_usage_chart_acceptance_flash",
+  "requested_profile": "auto",
+  "resolved_profile": "agent_simple",
+  "profile_decision": {
+    "mode": "model",
+    "judge_model_key": "gemini_31_pro_preview",
+    "judge_reason": "需要读取本地图片文件进行图表可读性视觉审查",
+    "judge_confidence": 0.95,
+    "judge_attempts": [
+      {
+        "model_key": "gemini_30_flash_preview",
+        "ok": true,
+        "return_code": 0,
+        "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials."
+      },
+      {
+        "model_key": "gemini_31_pro_preview",
+        "ok": true,
+        "return_code": 0,
+        "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.\nAttempt 1 failed with st"
+      }
+    ]
+  },
+  "execution_mode": "auto",
+  "chain": [
+    "gemini_30_flash_preview"
+  ],
+  "max_budget_usd": 3.0,
+  "max_output_tokens": null
+}

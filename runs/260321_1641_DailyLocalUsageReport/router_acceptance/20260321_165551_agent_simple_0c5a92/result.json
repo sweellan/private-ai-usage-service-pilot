@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "run_dir": "/Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1641_DailyLocalUsageReport/router_acceptance/20260321_165551_agent_simple_0c5a92",
+  "selected": {
+    "model_key": "gemini_30_flash_preview",
+    "provider_key": "gemini_cli",
+    "provider_type": "gemini_cli",
+    "model_name": "gemini-3-flash-preview",
+    "execution_mode": "agent",
+    "ok": true,
+    "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.",
+    "latency_sec": 42.847,
+    "prompt_tokens": 134,
+    "completion_tokens": 134,
+    "estimated_cost_usd": null,
+    "return_code": 0
+  },
+  "attempts": [
+    {
+      "model_key": "gemini_30_flash_preview",
+      "provider_key": "gemini_cli",
+      "provider_type": "gemini_cli",
+      "model_name": "gemini-3-flash-preview",
+      "execution_mode": "agent",
+      "ok": true,
+      "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials.",
+      "latency_sec": 42.847,
+      "prompt_tokens": 134,
+      "completion_tokens": 134,
+      "estimated_cost_usd": null,
+      "return_code": 0
+    }
+  ],
+  "spent_usd": 0.0,
+  "response_file": "/Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1641_DailyLocalUsageReport/router_acceptance/20260321_165551_agent_simple_0c5a92/response.txt"
+}

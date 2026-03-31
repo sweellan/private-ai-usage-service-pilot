@@ -1,0 +1,28 @@
+{
+  "name": "ai-usage-upload-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Public-repo-ready token usage upload service with member/admin RBAC.",
+  "bin": {
+    "ai-usage-server": "./server/run_token_usage_server.mjs",
+    "ai-usage-admin": "./server/admin_cli.mjs",
+    "ai-usage-client": "./client/cli.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/public_repo_token_rbac.test.mjs tests/public_repo_seed_cli.test.mjs",
+    "test:rbac": "node --test tests/public_repo_token_rbac.test.mjs",
+    "test:cli": "node --test tests/public_repo_seed_cli.test.mjs"
+  },
+  "keywords": [
+    "ai",
+    "usage",
+    "tokens",
+    "rbac",
+    "upload"
+  ],
+  "license": "UNLICENSED"
+}

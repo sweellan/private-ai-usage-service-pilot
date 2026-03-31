@@ -1,0 +1,13 @@
+✔ loadMemberManifest resolves relative report paths from CSV (1.351792ms)
+✔ loadMemberManifest rejects duplicate member ids (0.315ms)
+✔ aggregateTeamReports sums member, source, and daily totals correctly (19.102042ms)
+✔ writeTeamReportOutputs writes the expected artifact set (24.881708ms)
+✔ CLI generates report artifacts from fixture manifest (42.93ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 140.451083

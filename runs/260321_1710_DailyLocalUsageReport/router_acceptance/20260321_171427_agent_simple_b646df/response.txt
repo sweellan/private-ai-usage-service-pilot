@@ -1,0 +1,19 @@
+I will read the `dashboard_screenshot.png` file to evaluate its readability, specifically focusing on the visibility and accessibility of small categories like `output` and `reasoning`.
+```json
+{
+  "pass": true,
+  "score": 9,
+  "summary": "看板通过‘详情卡片+数据表格’的双重保障，完美解决了堆叠图中极小类别（output/reasoning）的可读性问题。用户无需依赖视觉厚度判断数据，且图表说明中提到的‘72% 视觉压制’逻辑进一步提升了细小类别的存在感。",
+  "exact_values_accessible": true,
+  "small_category_visibility_ok": true,
+  "key_issues": [
+    "堆叠图中 output/reasoning 即使在 Cached 被压制的情况下依然很细，纯视觉感知弱。",
+    "详情卡片目前仅展示‘当前选中日期’，若需对比多日细小类别仍需滚动至底部表格。"
+  ],
+  "minimal_fixes": [
+    "为堆叠图增加 Hover Tooltip，实现悬停即看精确值，减少视线跨度。",
+    "在详情卡片的数值旁增加颜色色块，建立卡片数据与图表颜色之间的强关联映射。",
+    "考虑在‘选定范围总览’中也展示 output/reasoning 的占比饼图或进度条。"
+  ]
+}
+```

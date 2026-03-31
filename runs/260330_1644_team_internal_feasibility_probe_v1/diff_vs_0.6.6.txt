@@ -1,0 +1,309 @@
+Binary files /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/index and /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/index differ
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/logs/HEAD /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/logs/HEAD
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/logs/HEAD	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/logs/HEAD	2026-03-30 17:04:11
+@@ -1 +1 @@
+-0000000000000000000000000000000000000000 d8db89148f2954265bf3eabce4c85bde98a18a00 yangchao <yangchao@MBP-D1HJ5HD6KV-1838.local> 1774076783 +0800	clone: from https://github.com/vibe-cafe/vibe-usage.git
++0000000000000000000000000000000000000000 814b890e5989af100bd63fdd899e4f033565fd28 yangchao <yangchao@MBP-D1HJ5HD6KV-1838.local> 1774861451 +0800	clone: from https://github.com/vibe-cafe/vibe-usage.git
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/logs/refs/heads/main /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/logs/refs/heads/main
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/logs/refs/heads/main	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/logs/refs/heads/main	2026-03-30 17:04:11
+@@ -1 +1 @@
+-0000000000000000000000000000000000000000 d8db89148f2954265bf3eabce4c85bde98a18a00 yangchao <yangchao@MBP-D1HJ5HD6KV-1838.local> 1774076783 +0800	clone: from https://github.com/vibe-cafe/vibe-usage.git
++0000000000000000000000000000000000000000 814b890e5989af100bd63fdd899e4f033565fd28 yangchao <yangchao@MBP-D1HJ5HD6KV-1838.local> 1774861451 +0800	clone: from https://github.com/vibe-cafe/vibe-usage.git
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/logs/refs/remotes/origin/HEAD /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/logs/refs/remotes/origin/HEAD
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/logs/refs/remotes/origin/HEAD	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/logs/refs/remotes/origin/HEAD	2026-03-30 17:04:11
+@@ -1 +1 @@
+-0000000000000000000000000000000000000000 d8db89148f2954265bf3eabce4c85bde98a18a00 yangchao <yangchao@MBP-D1HJ5HD6KV-1838.local> 1774076783 +0800	clone: from https://github.com/vibe-cafe/vibe-usage.git
++0000000000000000000000000000000000000000 814b890e5989af100bd63fdd899e4f033565fd28 yangchao <yangchao@MBP-D1HJ5HD6KV-1838.local> 1774861451 +0800	clone: from https://github.com/vibe-cafe/vibe-usage.git
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/objects/pack: pack-534e786dd26ee194d44a5fbb17e12f7b4d9203f0.idx
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/objects/pack: pack-534e786dd26ee194d44a5fbb17e12f7b4d9203f0.pack
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/objects/pack: pack-534e786dd26ee194d44a5fbb17e12f7b4d9203f0.rev
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/objects/pack: pack-f1032a5fc967b27022275a2f00a5c697d7962bf5.idx
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/objects/pack: pack-f1032a5fc967b27022275a2f00a5c697d7962bf5.pack
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/objects/pack: pack-f1032a5fc967b27022275a2f00a5c697d7962bf5.rev
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/packed-refs /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/packed-refs
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/packed-refs	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/packed-refs	2026-03-30 17:04:11
+@@ -1,2 +1,2 @@
+ # pack-refs with: peeled fully-peeled sorted 
+-d8db89148f2954265bf3eabce4c85bde98a18a00 refs/remotes/origin/main
++814b890e5989af100bd63fdd899e4f033565fd28 refs/remotes/origin/main
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/refs/heads/main /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/refs/heads/main
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/refs/heads/main	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/refs/heads/main	2026-03-30 17:04:11
+@@ -1 +1 @@
+-d8db89148f2954265bf3eabce4c85bde98a18a00
++814b890e5989af100bd63fdd899e4f033565fd28
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/shallow /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/shallow
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/.git/shallow	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/.git/shallow	2026-03-30 17:04:11
+@@ -1 +1 @@
+-d8db89148f2954265bf3eabce4c85bde98a18a00
++814b890e5989af100bd63fdd899e4f033565fd28
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/AGENTS.md /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/AGENTS.md
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/AGENTS.md	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/AGENTS.md	2026-03-30 17:04:11
+@@ -8,7 +8,7 @@
+ vibe-usage/
+ ├── bin/vibe-usage.js          # CLI entry point → src/index.js
+ ├── src/
+-│   ├── index.js               # Command router (init, sync, daemon, reset, status, config)
++│   ├── index.js               # Command router (init, sync, daemon, reset, skill, status, config)
+ │   ├── parsers/               # One parser per tool, all export async parse() → { buckets, sessions }
+ │   │   ├── index.js           # Parser registry, aggregateToBuckets(), extractSessions()
+ │   │   ├── claude-code.js
+@@ -18,15 +18,19 @@
+ │   │   ├── opencode.js        # SQLite via child_process sqlite3, JSON fallback
+ │   │   ├── openclaw.js
+ │   │   ├── qwen-code.js
+-│   │   └── kimi-code.js
++│   │   ├── kimi-code.js
++│   │   ├── amp.js
++│   │   └── droid.js
+ │   ├── tools.js               # TOOLS[] registry + detectInstalledTools()
+ │   ├── sync.js                # Orchestrator: parse all → batch upload buckets + sessions
+ │   ├── api.js                 # HTTP client: ingest(), deleteAllData(), fetchSettings()
+ │   ├── config.js              # ~/.vibe-usage/config.json (dev: config.dev.json)
+ │   ├── init.js                # Interactive setup (API key, verify, initial sync)
+-│   ├── daemon.js              # 5-minute sync loop
+-│   └── reset.js               # Delete remote data + re-sync
+-├── SKILL.md                   # OpenClaw skill definition
++│   ├── daemon.js              # 5-minute sync loop (foreground)
++│   ├── daemon-service.js      # Background service management (systemd/launchd install/uninstall/status)
++│   ├── reset.js               # Delete remote data + re-sync
++│   └── skill.js               # Install/remove SKILL.md for AI coding tools
++├── SKILL.md                   # Skill definition (also used by `npx skills add`)
+ └── package.json               # @vibe-cafe/vibe-usage, ESM, Node >=20, zero dependencies
+ ```
+ 
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/README.md /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/README.md
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/README.md	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/README.md	2026-03-30 17:04:11
+@@ -19,9 +19,16 @@
+ npx @vibe-cafe/vibe-usage              # Init (first run) or sync (subsequent runs)
+ npx @vibe-cafe/vibe-usage init         # Re-run setup
+ npx @vibe-cafe/vibe-usage sync         # Manual sync
+-npx @vibe-cafe/vibe-usage daemon       # Continuous sync (every 5 minutes)
++npx @vibe-cafe/vibe-usage daemon       # Continuous sync (every 5m, foreground)
++npx @vibe-cafe/vibe-usage daemon install    # Install background service (systemd/launchd)
++npx @vibe-cafe/vibe-usage daemon uninstall  # Remove background service
++npx @vibe-cafe/vibe-usage daemon status     # Show background service status
++npx @vibe-cafe/vibe-usage daemon stop       # Stop background service
++npx @vibe-cafe/vibe-usage daemon restart    # Restart background service
+ npx @vibe-cafe/vibe-usage reset        # Delete all data and re-upload from local logs
+ npx @vibe-cafe/vibe-usage reset --local  # Delete this host's data only and re-upload
++npx @vibe-cafe/vibe-usage skill         # Install skill for AI coding assistants
++npx @vibe-cafe/vibe-usage skill --remove  # Remove installed skills
+ npx @vibe-cafe/vibe-usage status       # Show config & detected tools
+ ```
+ 
+@@ -35,18 +42,41 @@
+ | Gemini CLI | `~/.gemini/tmp/` |
+ | OpenCode | `~/.local/share/opencode/opencode.db` (SQLite, `json_extract` query) |
+ | OpenClaw | `~/.openclaw/agents/` |
++| pi | `~/.pi/agent/sessions/` |
+ | Qwen Code | `~/.qwen/tmp/` |
+ | Kimi Code | `~/.kimi/sessions/` |
++| Amp | `~/.local/share/amp/threads/` |
++| Droid | `~/.factory/sessions/` |
+ 
+ ## How It Works
+ 
+ - Parses local session logs from each AI coding tool
+ - Aggregates token usage into 30-minute buckets
+-- Extracts session metadata from all 8 parsers: active time (AI generation time, excluding queue/TTFT wait), total duration, message counts
++- Extracts session metadata from all 10 parsers: active time (AI generation time, excluding queue/TTFT wait), total duration, message counts
+ - Uploads buckets + sessions to your vibecafe.ai dashboard
+ - Stateless: computes full totals from local logs each sync (idempotent, no state files)
+ - For continuous syncing, use `npx @vibe-cafe/vibe-usage daemon` or the [Vibe Usage Mac app](https://github.com/vibe-cafe/vibe-usage-app)
+ 
++## AI Skill
++
++Install vibe-usage as a skill for your AI coding assistant, so it knows how to sync usage data on your behalf:
++
++```bash
++npx @vibe-cafe/vibe-usage skill
++```
++
++This auto-detects installed AI tools (Claude Code, Cursor, Windsurf, Codex CLI) and writes a `SKILL.md` to each tool's global skills directory. To remove:
++
++```bash
++npx @vibe-cafe/vibe-usage skill --remove
++```
++
++You can also install via the [open skills ecosystem](https://github.com/vercel-labs/skills):
++
++```bash
++npx skills add vibe-cafe/vibe-usage
++```
++
+ ## Development
+ 
+ Test against a local vibe-cafe dev server without publishing:
+@@ -64,13 +94,34 @@
+ 
+ ## Daemon Mode
+ 
++### Background service (recommended)
++
++Install as a system service for automatic background syncing:
++
++```bash
++npx @vibe-cafe/vibe-usage daemon install
++```
++
++This creates a user-level service (systemd on Linux, launchd on macOS) that syncs every 5 minutes and starts automatically on login. Manage with:
++
++```bash
++npx @vibe-cafe/vibe-usage daemon status
++npx @vibe-cafe/vibe-usage daemon stop
++npx @vibe-cafe/vibe-usage daemon restart
++npx @vibe-cafe/vibe-usage daemon uninstall
++```
++
++For reliable operation, install globally first: `npm install -g @vibe-cafe/vibe-usage`
++
++### Foreground mode
++
+ Run continuous syncing in the foreground (every 5 minutes):
+ 
+ ```bash
+ npx @vibe-cafe/vibe-usage daemon
+ ```
+ 
+-Press Ctrl+C to stop. For background use: `nohup npx @vibe-cafe/vibe-usage daemon &`
++Press Ctrl+C to stop.
+ 
+ ## License
+ 
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/SKILL.md /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/SKILL.md
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/SKILL.md	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/SKILL.md	2026-03-30 17:04:11
+@@ -54,4 +54,4 @@
+ 
+ - Requires initial setup with an API key (run `npx @vibe-cafe/vibe-usage` first)
+ - Config is stored at `~/.vibe-usage/config.json`
+-- Supports: Claude Code, Codex CLI, Gemini CLI, OpenCode, OpenClaw
++- Supports: Claude Code, Codex CLI, Copilot CLI, Gemini CLI, OpenCode, OpenClaw, Qwen Code, Kimi Code, Amp, Droid
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/package.json /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/package.json
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/package.json	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/package.json	2026-03-30 17:04:11
+@@ -1,6 +1,6 @@
+ {
+   "name": "@vibe-cafe/vibe-usage",
+-  "version": "0.6.6",
++  "version": "0.7.1",
+   "description": "Track your AI coding tool token usage and sync to vibecafe.ai",
+   "type": "module",
+   "bin": {
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src: daemon-service.js
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/src/index.js /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/index.js
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/src/index.js	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/index.js	2026-03-30 17:04:11
+@@ -109,10 +109,21 @@
+     }
+     case 'daemon':
+     case '--daemon': {
+-      const { runDaemon } = await import('./daemon.js');
+-      await runDaemon();
++      const sub = args[1];
++      if (sub && ['install', 'uninstall', 'status', 'stop', 'restart'].includes(sub)) {
++        const { manageDaemon } = await import('./daemon-service.js');
++        await manageDaemon(sub);
++      } else {
++        const { runDaemon } = await import('./daemon.js');
++        await runDaemon();
++      }
+       break;
+     }
++    case 'skill': {
++      const { runSkill } = await import('./skill.js');
++      await runSkill(args.slice(1));
++      break;
++    }
+     case 'config': {
+       handleConfig(args.slice(1));
+       break;
+@@ -131,9 +142,16 @@
+     npx @vibe-cafe/vibe-usage              Init (first run) or sync
+     npx @vibe-cafe/vibe-usage init         Set up API key
+     npx @vibe-cafe/vibe-usage sync         Manually sync usage data
+-    npx @vibe-cafe/vibe-usage daemon       Continuous sync (every 5m)
++    npx @vibe-cafe/vibe-usage daemon       Continuous sync (every 5m, foreground)
++    npx @vibe-cafe/vibe-usage daemon install    Install background service (systemd/launchd)
++    npx @vibe-cafe/vibe-usage daemon uninstall  Remove background service
++    npx @vibe-cafe/vibe-usage daemon status     Show background service status
++    npx @vibe-cafe/vibe-usage daemon stop       Stop background service
++    npx @vibe-cafe/vibe-usage daemon restart    Restart background service
+     npx @vibe-cafe/vibe-usage reset        Delete all data and re-upload
+     npx @vibe-cafe/vibe-usage reset --local  Delete data for this host only and re-upload
++    npx @vibe-cafe/vibe-usage skill         Install skill for AI coding tools
++    npx @vibe-cafe/vibe-usage skill --remove  Remove installed skills
+     npx @vibe-cafe/vibe-usage status       Show config and detected tools
+     npx @vibe-cafe/vibe-usage config show  Show full config as JSON
+     npx @vibe-cafe/vibe-usage config get <key>   Get a config value
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/src/init.js /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/init.js
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/src/init.js	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/init.js	2026-03-30 17:04:11
+@@ -75,4 +75,8 @@
+   await runSync();
+ 
+   console.log(`\nSetup complete! View your dashboard at: ${apiUrl}/usage`);
++
++  if (process.platform === 'linux' || process.platform === 'darwin') {
++    console.log('\nTip: Run `npx @vibe-cafe/vibe-usage daemon install` to sync automatically in the background.');
++  }
+ }
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/parsers: antigravity.js
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/src/parsers/index.js /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/parsers/index.js
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/src/parsers/index.js	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/parsers/index.js	2026-03-30 17:04:11
+@@ -9,6 +9,8 @@
+ import { parse as parseKimiCode } from './kimi-code.js';
+ import { parse as parseAmp } from './amp.js';
+ import { parse as parseDroid } from './droid.js';
++import { parse as parseAntigravity } from './antigravity.js';
++import { parse as parsePiCodingAgent } from './pi-coding-agent.js';
+ 
+ export const parsers = {
+   'claude-code': parseClaudeCode,
+@@ -21,6 +23,8 @@
+   'kimi-code': parseKimiCode,
+   'amp': parseAmp,
+   'droid': parseDroid,
++  'antigravity': parseAntigravity,
++  'pi-coding-agent': parsePiCodingAgent,
+ };
+ 
+ 
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/parsers: pi-coding-agent.js
+Only in /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src: skill.js
+diff -ru /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/src/tools.js /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/tools.js
+--- /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260321_1505_source_probe_v1/repo/src/tools.js	2026-03-21 15:06:23
++++ /Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/runs/260330_1644_team_internal_feasibility_probe_v1/repo/src/tools.js	2026-03-30 17:04:11
+@@ -4,6 +4,11 @@
+ 
+ export const TOOLS = [
+   {
++    name: 'Antigravity',
++    id: 'antigravity',
++    dataDir: join(homedir(), '.gemini', 'antigravity'),
++  },
++  {
+     name: 'Claude Code',
+     id: 'claude-code',
+     dataDir: join(homedir(), '.claude', 'projects'),
+@@ -32,6 +37,11 @@
+     name: 'OpenClaw',
+     id: 'openclaw',
+     dataDir: join(homedir(), '.openclaw', 'agents'),
++  },
++  {
++    name: 'pi',
++    id: 'pi-coding-agent',
++    dataDir: join(homedir(), '.pi', 'agent', 'sessions'),
+   },
+   {
+     name: 'Qwen Code',

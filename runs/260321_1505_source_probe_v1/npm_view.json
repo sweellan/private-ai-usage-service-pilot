@@ -1,0 +1,8 @@
+{
+  "name": "@vibe-cafe/vibe-usage",
+  "version": "0.6.6",
+  "description": "Track your AI coding tool token usage and sync to vibecafe.ai",
+  "repository.url": "git+https://github.com/vibe-cafe/vibe-usage.git",
+  "homepage": "https://github.com/vibe-cafe/vibe-usage#readme",
+  "dist.tarball": "https://registry.npmjs.org/@vibe-cafe/vibe-usage/-/vibe-usage-0.6.6.tgz"
+}

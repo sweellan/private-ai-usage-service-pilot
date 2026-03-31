@@ -1,0 +1,16 @@
+
+  vibe-usage - Vibe Usage Tracker by VibeCafé
+
+  Usage:
+    npx @vibe-cafe/vibe-usage              Init (first run) or sync
+    npx @vibe-cafe/vibe-usage init         Set up API key
+    npx @vibe-cafe/vibe-usage sync         Manually sync usage data
+    npx @vibe-cafe/vibe-usage daemon       Continuous sync (every 5m)
+    npx @vibe-cafe/vibe-usage reset        Delete all data and re-upload
+    npx @vibe-cafe/vibe-usage reset --local  Delete data for this host only and re-upload
+    npx @vibe-cafe/vibe-usage status       Show config and detected tools
+    npx @vibe-cafe/vibe-usage config show  Show full config as JSON
+    npx @vibe-cafe/vibe-usage config get <key>   Get a config value
+    npx @vibe-cafe/vibe-usage config set <key> <value>  Set a config value
+    npx @vibe-cafe/vibe-usage help         Show this help
+

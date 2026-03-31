@@ -1,0 +1,101 @@
+./repo/src/config.js:6:const isDev = process.env.VIBE_USAGE_DEV === '1';
+./repo/src/config.js:7:const CONFIG_FILE = join(CONFIG_DIR, isDev ? 'config.dev.json' : 'config.json');
+./repo/README.md:3:Track your AI coding tool token usage and sync to [vibecafe.ai](https://vibecafe.ai).
+./repo/README.md:12:1. Ask for your API key (get one at https://vibecafe.ai/usage/setup)
+./repo/README.md:14:3. Run an initial sync of your usage data
+./repo/README.md:19:npx @vibe-cafe/vibe-usage              # Init (first run) or sync (subsequent runs)
+./repo/README.md:21:npx @vibe-cafe/vibe-usage sync         # Manual sync
+./repo/README.md:22:npx @vibe-cafe/vibe-usage daemon       # Continuous sync (every 5 minutes)
+./repo/README.md:23:npx @vibe-cafe/vibe-usage reset        # Delete all data and re-upload from local logs
+./repo/README.md:24:npx @vibe-cafe/vibe-usage reset --local  # Delete this host's data only and re-upload
+./repo/README.md:46:- Uploads buckets + sessions to your vibecafe.ai dashboard
+./repo/README.md:47:- Stateless: computes full totals from local logs each sync (idempotent, no state files)
+./repo/README.md:48:- For continuous syncing, use `npx @vibe-cafe/vibe-usage daemon` or the [Vibe Usage Mac app](https://github.com/vibe-cafe/vibe-usage-app)
+./repo/README.md:55:VIBE_USAGE_DEV=1 VIBE_USAGE_API_URL=http://localhost:3000 npx @vibe-cafe/vibe-usage init
+./repo/README.md:56:VIBE_USAGE_DEV=1 npx @vibe-cafe/vibe-usage sync
+./repo/README.md:59:`VIBE_USAGE_DEV=1` uses a separate config file (`~/.vibe-usage/config.dev.json`).
+./repo/README.md:63:Config stored at `~/.vibe-usage/config.json` (dev: `config.dev.json`). Contains your API key and server URL.
+./repo/README.md:67:Run continuous syncing in the foreground (every 5 minutes):
+./repo/src/init.js:6:import { runSync } from './sync.js';
+./repo/src/init.js:22:  // Use execFile with args array to avoid shell injection via VIBE_USAGE_API_URL
+./repo/src/init.js:26:export async function runInit() {
+./repo/src/init.js:38:  const apiUrl = process.env.VIBE_USAGE_API_URL || 'https://vibecafe.ai';
+./repo/src/init.js:74:  console.log('\nRunning initial sync...');
+./repo/SKILL.md:3:description: Track and sync AI coding tool token usage to vibecafe.ai dashboard.
+./repo/SKILL.md:16:Track your AI coding tool token usage and sync to [vibecafe.ai](https://vibecafe.ai/usage).
+./repo/SKILL.md:26:Get your API key at https://vibecafe.ai/usage/setup
+./repo/SKILL.md:30:When the user asks to sync usage, check costs, or track tokens, run:
+./repo/SKILL.md:33:npx @vibe-cafe/vibe-usage sync
+./repo/SKILL.md:40:| `npx @vibe-cafe/vibe-usage sync` | Sync latest usage data |
+./repo/SKILL.md:42:| `npx @vibe-cafe/vibe-usage daemon` | Continuous sync every 5 minutes |
+./repo/SKILL.md:43:| `npx @vibe-cafe/vibe-usage reset` | Delete all data and re-upload |
+./repo/SKILL.md:44:| `npx @vibe-cafe/vibe-usage reset --local` | Delete this host's data and re-upload |
+./repo/SKILL.md:48:- User says "sync my usage", "upload usage", "track tokens"
+./repo/SKILL.md:50:- User wants to check if sync is working: run `status`
+./repo/SKILL.md:51:- User wants continuous background sync: run `daemon`
+./repo/AGENTS.md:11:│   ├── index.js               # Command router (init, sync, daemon, reset, status, config)
+./repo/AGENTS.md:12:│   ├── parsers/               # One parser per tool, all export async parse() → { buckets, sessions }
+./repo/AGENTS.md:23:│   ├── sync.js                # Orchestrator: parse all → batch upload buckets + sessions
+./repo/AGENTS.md:25:│   ├── config.js              # ~/.vibe-usage/config.json (dev: config.dev.json)
+./repo/AGENTS.md:26:│   ├── init.js                # Interactive setup (API key, verify, initial sync)
+./repo/AGENTS.md:27:│   ├── daemon.js              # 5-minute sync loop
+./repo/AGENTS.md:28:│   └── reset.js               # Delete remote data + re-sync
+./repo/AGENTS.md:37:- **Stateless sync** — parsers compute full totals from raw logs each run; server upserts idempotently
+./repo/AGENTS.md:66:1. Create `src/parsers/<tool-id>.js` exporting `async function parse()` returning `{ buckets: [], sessions: [] }`
+./repo/AGENTS.md:82:VIBE_USAGE_DEV=1 VIBE_USAGE_API_URL=http://localhost:3000 node ./bin/vibe-usage.js init
+./repo/AGENTS.md:83:VIBE_USAGE_DEV=1 node ./bin/vibe-usage.js sync
+./repo/src/api.js:8:export async function ingest(apiUrl, apiKey, buckets, opts, sessions) {
+./repo/src/api.js:73:    // Write body in chunks to report upload progress
+./repo/src/api.js:148: * GET user settings from the vibecafe API.
+./repo/src/api.js:152: * @returns {Promise<{uploadProject: boolean} | null>}
+./repo/package-lock.json:23:      "resolved": "https://registry.npmjs.org/ccusage/-/ccusage-18.0.5.tgz",
+./repo/package-lock.json:33:        "url": "https://github.com/ryoppippi/ccusage?sponsor=1"
+./repo/src/sync.js:15:export async function runSync({ throws = false, quiet = false } = {}) {
+./repo/src/sync.js:70:  // Privacy: check if user allows project name upload
+./repo/src/sync.js:71:  const apiUrl = config.apiUrl || 'https://vibecafe.ai';
+./repo/src/sync.js:73:  const uploadProject = settings?.uploadProject === true;
+./repo/src/sync.js:75:  if (uploadProject) {
+./repo/src/sync.js:76:    console.log('📂 项目名: 上传 (可在 vibecafe.ai/usage 设置中关闭)');
+./repo/src/sync.js:118:    const syncParts = [`${totalIngested} buckets`];
+./repo/src/sync.js:119:    if (totalSessionsSynced > 0) syncParts.push(`${totalSessionsSynced} sessions`);
+./repo/src/sync.js:120:    console.log(`Synced ${syncParts.join(' + ')}.`);
+./repo/src/sync.js:146:      console.error(`Sync partially completed (${totalIngested} buckets uploaded). ${err.message}`);
+./repo/package.json:4:  "description": "Track your AI coding tool token usage and sync to vibecafe.ai",
+./repo/package.json:28:    "url": "git+https://github.com/vibe-cafe/vibe-usage.git"
+./repo/package.json:30:  "homepage": "https://github.com/vibe-cafe/vibe-usage#readme",
+./repo/package.json:32:    "url": "https://github.com/vibe-cafe/vibe-usage/issues"
+./repo/src/index.js:5:async function showStatus() {
+./repo/src/index.js:15:    console.log(`  API URL: ${config.apiUrl || 'https://vibecafe.ai'}`);
+./repo/src/index.js:91:export async function run(args) {
+./repo/src/index.js:100:    case 'sync': {
+./repo/src/index.js:101:      const { runSync } = await import('./sync.js');
+./repo/src/index.js:131:    npx @vibe-cafe/vibe-usage              Init (first run) or sync
+./repo/src/index.js:133:    npx @vibe-cafe/vibe-usage sync         Manually sync usage data
+./repo/src/index.js:134:    npx @vibe-cafe/vibe-usage daemon       Continuous sync (every 5m)
+./repo/src/index.js:135:    npx @vibe-cafe/vibe-usage reset        Delete all data and re-upload
+./repo/src/index.js:136:    npx @vibe-cafe/vibe-usage reset --local  Delete data for this host only and re-upload
+./repo/src/index.js:151:        const { runSync } = await import('./sync.js');
+./repo/src/daemon.js:2:import { runSync } from './sync.js';
+./repo/src/daemon.js:15:export async function runDaemon() {
+./repo/src/daemon.js:22:  log('Daemon started (sync every 5m, Ctrl+C to stop)');
+./repo/src/parsers/opencode.js:15:export async function parse() {
+./repo/src/parsers/opencode.js:45:      throw new Error('sqlite3 CLI not found. Install sqlite3 to sync opencode data.');
+./repo/src/parsers/gemini-cli.js:33:export async function parse() {
+./repo/src/parsers/copilot-cli.js:40:export async function parse() {
+./repo/src/reset.js:7:import { runSync } from './sync.js';
+./repo/src/reset.js:20:export async function runReset(args = []) {
+./repo/src/reset.js:29:  const apiUrl = config.apiUrl || 'https://vibecafe.ai';
+./repo/src/reset.js:32:    const answer = await prompt(`This will delete usage data for this host (${currentHost}) and re-upload from local logs. Continue? (y/N) `);
+./repo/src/reset.js:52:    const answer = await prompt('This will delete ALL your usage data and re-upload from local logs. Continue? (y/N) ');
+./repo/src/reset.js:76:  console.log('Cleared local sync state.');
+./repo/src/reset.js:78:  // 3. Re-upload everything
+./repo/src/reset.js:79:  console.log('\nRe-syncing all data...');
+./repo/src/parsers/qwen-code.js:55:export async function parse() {
+./repo/src/parsers/droid.js:37:export async function parse() {
+./repo/src/parsers/amp.js:54:export async function parse() {
+./repo/src/parsers/kimi-code.js:63:export async function parse() {
+./repo/src/parsers/openclaw.js:23:export async function parse() {
+./repo/src/parsers/claude-code.js:9: * token usage from assistant messages. No state file needed — every sync
+./repo/src/parsers/claude-code.js:61:export async function parse() {
+./repo/src/parsers/codex.js:30:export async function parse() {
+./repo/src/parsers/codex.js:59:            // e.g. https://github.com/org/repo.git → org/repo

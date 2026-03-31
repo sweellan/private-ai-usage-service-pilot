@@ -1,0 +1,22 @@
+
+vibe-usage status
+
+  Config: not configured
+  Run `npx @vibe-cafe/vibe-usage init` to set up.
+
+
+  Detected tools:
+    (none)
+
+  All supported tools:
+    Claude Code: not found
+    Codex CLI: not found
+    GitHub Copilot CLI: not found
+    Gemini CLI: not found
+    OpenCode: not found
+    OpenClaw: not found
+    Qwen Code: not found
+    Kimi Code: not found
+    Amp: not found
+    Droid: not found
+

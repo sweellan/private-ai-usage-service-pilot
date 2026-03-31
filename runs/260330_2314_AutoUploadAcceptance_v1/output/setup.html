@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>Internal Usage Setup</title>
+  <style>
+    body { font-family: "PingFang SC", "Noto Sans SC", sans-serif; margin: 0; padding: 24px; background: #f5f8fb; color: #12344d; }
+    .wrap { max-width: 980px; margin: 0 auto; display: grid; gap: 18px; }
+    .card { background: #fff; border: 1px solid #d7e3ef; border-radius: 18px; padding: 18px 20px; }
+    code { background: #edf3f7; padding: 2px 6px; border-radius: 6px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { border-bottom: 1px solid #d7e3ef; padding: 8px 10px; text-align: left; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>Internal Usage Setup</h1>
+      <p>当前这是一版内部自动上传 MVP。成员拿到 API key 后，可用本地 client 初始化并上传 usage 数据。</p>
+      <p>Dashboard: <a href="http://127.0.0.1:8787/usage">http://127.0.0.1:8787/usage</a></p>
+    </section>
+    <section class="card">
+      <h2>成员使用方式</h2>
+      <pre><code>node internal_usage_client.mjs init --server-url http://127.0.0.1:8787 --api-key vbu_xxx
+node internal_usage_client.mjs sync</code></pre>
+      <p>如果要用固定 fixture 或离线调试，也可以传 <code>--local-report-path</code>。</p>
+    </section>
+    <section class="card">
+      <h2>已签发 API Key</h2>
+      <table>
+        <thead><tr><th>成员</th><th>团队</th><th>member_id</th><th>key prefix</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>Search</td>
+      <td>alice</td>
+      <td>vbu_be9008b1...</td>
+    </tr>
+  
+    <tr>
+      <td>Bob</td>
+      <td>Infra</td>
+      <td>bob</td>
+      <td>vbu_30d64bf8...</td>
+    </tr>
+  </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+</html>

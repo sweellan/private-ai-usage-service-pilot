@@ -1,0 +1,120 @@
+{
+  "submissionVersion": 1,
+  "submittedAt": "2026-03-30T12:48:08.382Z",
+  "memberId": "bob",
+  "memberName": "Bob",
+  "team": "Infra",
+  "report": {
+    "generatedAt": "2026-03-30T08:05:00.000Z",
+    "timezone": "Asia/Shanghai",
+    "hostname": "bob-mbp",
+    "mode": "local-only-parser-report",
+    "networkRequestsMade": false,
+    "vendor": {
+      "repo": "https://github.com/vibe-cafe/vibe-usage.git",
+      "commit": "fixture-bob"
+    },
+    "tokenTaxonomy": {
+      "principle": "MECE over the normalized local schema"
+    },
+    "summary": {
+      "totalBuckets": 4,
+      "totalSessions": 7,
+      "totalTokens": 2000,
+      "inputTokens": 700,
+      "cachedInputTokens": 650,
+      "outputTokens": 450,
+      "reasoningOutputTokens": 200,
+      "legacyTotalTokensExcludingCachedInput": 1350,
+      "totalActiveSeconds": 5400,
+      "totalDurationSeconds": 9000,
+      "parserSuccessCount": 2,
+      "parserErrorCount": 0,
+      "dailyRowCount": 2
+    },
+    "parserReports": [
+      {
+        "source": "codex",
+        "buckets": 2,
+        "sessions": 5,
+        "inputTokens": 500,
+        "cachedInputTokens": 450,
+        "outputTokens": 200,
+        "reasoningOutputTokens": 50,
+        "totalTokens": 1200,
+        "legacyTotalTokens": 750,
+        "activeSeconds": 4200,
+        "durationSeconds": 6600,
+        "messageCount": 50
+      },
+      {
+        "source": "claude-code",
+        "buckets": 2,
+        "sessions": 2,
+        "inputTokens": 200,
+        "cachedInputTokens": 200,
+        "outputTokens": 250,
+        "reasoningOutputTokens": 150,
+        "totalTokens": 800,
+        "legacyTotalTokens": 600,
+        "activeSeconds": 1200,
+        "durationSeconds": 2400,
+        "messageCount": 20
+      }
+    ],
+    "sessionSources": [
+      {
+        "source": "codex",
+        "sessions": 5,
+        "activeSeconds": 4200,
+        "durationSeconds": 6600,
+        "messageCount": 50
+      },
+      {
+        "source": "claude-code",
+        "sessions": 2,
+        "activeSeconds": 1200,
+        "durationSeconds": 2400,
+        "messageCount": 20
+      }
+    ],
+    "topProjects": [
+      {
+        "source": "codex",
+        "project": "beta",
+        "buckets": 2,
+        "inputTokens": 500,
+        "cachedInputTokens": 450,
+        "outputTokens": 200,
+        "reasoningOutputTokens": 50,
+        "totalTokens": 1200,
+        "legacyTotalTokens": 750
+      }
+    ],
+    "dailyUsage": [
+      {
+        "date": "2026-03-30",
+        "buckets": 2,
+        "sessionsStarted": 3,
+        "inputTokens": 300,
+        "cachedInputTokens": 300,
+        "outputTokens": 200,
+        "reasoningOutputTokens": 100,
+        "legacyTotalTokens": 600,
+        "accountedTotalTokens": 900
+      },
+      {
+        "date": "2026-03-31",
+        "buckets": 2,
+        "sessionsStarted": 4,
+        "inputTokens": 400,
+        "cachedInputTokens": 350,
+        "outputTokens": 250,
+        "reasoningOutputTokens": 100,
+        "legacyTotalTokens": 750,
+        "accountedTotalTokens": 1100
+      }
+    ],
+    "errors": []
+  }
+}

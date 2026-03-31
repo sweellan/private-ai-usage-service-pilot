@@ -1,0 +1,8 @@
+.DS_Store
+
+private_ops_seed/.env.local
+private_ops_seed/bootstrap_output/
+
+runs/**/repo/
+
+*.bak_*

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="430" viewBox="0 0 1180 430">
+  <rect width="1180" height="430" fill="#f8fbfd" rx="18" />
+  <text x="72" y="26" font-size="18" font-weight="700" fill="#12344d">近14天 MECE token 分类堆叠图</text>
+  <text x="72" y="48" font-size="12" fill="#5b7385">每根柱子的总和 = input + cached_input_read + output + reasoning_output</text>
+  
+      <line x1="72" y1="338" x2="1152" y2="338" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="342" text-anchor="end" font-size="12" fill="#476072">0</text>
+    
+      <line x1="72" y1="263.49999989060717" x2="1152" y2="263.49999989060717" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="267.49999989060717" text-anchor="end" font-size="12" fill="#476072">163.4M</text>
+    
+      <line x1="72" y1="188.99999978121437" x2="1152" y2="188.99999978121437" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="192.99999978121437" text-anchor="end" font-size="12" fill="#476072">326.9M</text>
+    
+      <line x1="72" y1="114.50000012762499" x2="1152" y2="114.50000012762499" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="118.50000012762499" text-anchor="end" font-size="12" fill="#476072">490.3M</text>
+    
+      <line x1="72" y1="40.000000018232186" x2="1152" y2="40.000000018232186" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="44.000000018232186" text-anchor="end" font-size="12" fill="#476072">653.8M</text>
+    
+  
+      <rect x="89.57142857142857" y="332.13181258461776" width="42" height="5.86818741538225" fill="#2e7d32" rx="5" /><rect x="89.57142857142857" y="285.3268278857356" width="42" height="46.80498469888212" fill="#00838f" rx="5" /><rect x="89.57142857142857" y="285.00224297366043" width="42" height="0.32458491207518514" fill="#ef6c00" rx="5" /><rect x="89.57142857142857" y="284.81040351637535" width="42" height="0.1918394572850885" fill="#6a1b9a" rx="5" />
+      <text x="110.57142857142857" y="274.81040351637535" text-anchor="middle" font-size="11" fill="#0d3557">116.7M</text>
+      <text x="110.57142857142857" y="360" text-anchor="middle" font-size="11" fill="#476072">03-08</text>
+    
+      <rect x="166.71428571428572" y="322.11423965315316" width="42" height="15.885760346846842" fill="#2e7d32" rx="5" /><rect x="166.71428571428572" y="233.04359788090972" width="42" height="89.07064177224345" fill="#00838f" rx="5" /><rect x="166.71428571428572" y="232.55933500124496" width="42" height="0.4842628796647394" fill="#ef6c00" rx="5" /><rect x="166.71428571428572" y="232.2560142305711" width="42" height="0.3033207706738804" fill="#6a1b9a" rx="5" />
+      <text x="187.71428571428572" y="222.2560142305711" text-anchor="middle" font-size="11" fill="#0d3557">232M</text>
+      <text x="187.71428571428572" y="360" text-anchor="middle" font-size="11" fill="#476072">03-09</text>
+    
+      <rect x="243.85714285714283" y="327.43327874805266" width="42" height="10.56672125194733" fill="#2e7d32" rx="5" /><rect x="243.85714285714283" y="238.2903319668327" width="42" height="89.14294678121995" fill="#00838f" rx="5" /><rect x="243.85714285714283" y="237.69466070232727" width="42" height="0.5956712645054689" fill="#ef6c00" rx="5" /><rect x="243.85714285714283" y="237.42906951599346" width="42" height="0.2655911863337792" fill="#6a1b9a" rx="5" />
+      <text x="264.85714285714283" y="227.42906951599346" text-anchor="middle" font-size="11" fill="#0d3557">220.6M</text>
+      <text x="264.85714285714283" y="360" text-anchor="middle" font-size="11" fill="#476072">03-10</text>
+    
+      <rect x="321" y="323.977600064619" width="42" height="14.022399935380996" fill="#2e7d32" rx="5" /><rect x="321" y="230.80954576187332" width="42" height="93.16805430274567" fill="#00838f" rx="5" /><rect x="321" y="230.30315818394013" width="42" height="0.5063875779331809" fill="#ef6c00" rx="5" /><rect x="321" y="230.0558729747769" width="42" height="0.24728520916325697" fill="#6a1b9a" rx="5" />
+      <text x="342" y="220.0558729747769" text-anchor="middle" font-size="11" fill="#0d3557">236.8M</text>
+      <text x="342" y="360" text-anchor="middle" font-size="11" fill="#476072">03-11</text>
+    
+      <rect x="398.1428571428571" y="323.2998499982864" width="42" height="14.70015000171361" fill="#2e7d32" rx="5" /><rect x="398.1428571428571" y="184.84160941266" width="42" height="138.45824058562636" fill="#00838f" rx="5" /><rect x="398.1428571428571" y="184.36691931653533" width="42" height="0.4746900961246939" fill="#ef6c00" rx="5" /><rect x="398.1428571428571" y="184.1422492501262" width="42" height="0.2246700664090956" fill="#6a1b9a" rx="5" />
+      <text x="419.1428571428571" y="174.1422492501262" text-anchor="middle" font-size="11" fill="#0d3557">337.6M</text>
+      <text x="419.1428571428571" y="360" text-anchor="middle" font-size="11" fill="#476072">03-12</text>
+    
+      <rect x="475.2857142857142" y="303.3740194708685" width="42" height="34.62598052913146" fill="#2e7d32" rx="5" /><rect x="475.2857142857142" y="73.73040931689184" width="42" height="229.6436101539767" fill="#00838f" rx="5" /><rect x="475.2857142857142" y="72.7774806949758" width="42" height="0.9529286219160508" fill="#ef6c00" rx="5" /><rect x="475.2857142857142" y="71.92857142857144" width="42" height="0.8489092664043221" fill="#6a1b9a" rx="5" />
+      <text x="496.2857142857142" y="61.928571428571445" text-anchor="middle" font-size="11" fill="#0d3557">583.7M</text>
+      <text x="496.2857142857142" y="360" text-anchor="middle" font-size="11" fill="#476072">03-13</text>
+    
+      <rect x="552.4285714285714" y="337.79624675278205" width="42" height="0.2037532472179382" fill="#2e7d32" rx="5" /><rect x="552.4285714285714" y="336.64409237907245" width="42" height="1.1521543737095878" fill="#00838f" rx="5" /><rect x="552.4285714285714" y="336.63521104932875" width="42" height="0.008881329743728525" fill="#ef6c00" rx="5" /><rect x="552.4285714285714" y="336.6308070766326" width="42" height="0.00440397269612035" fill="#6a1b9a" rx="5" />
+      <text x="573.4285714285714" y="326.6308070766326" text-anchor="middle" font-size="11" fill="#0d3557">3M</text>
+      <text x="573.4285714285714" y="360" text-anchor="middle" font-size="11" fill="#476072">03-14</text>
+    
+      <rect x="629.5714285714286" y="337.7902852997814" width="42" height="0.20971470021861693" fill="#2e7d32" rx="5" /><rect x="629.5714285714286" y="336.5864975140436" width="42" height="1.2037877857377925" fill="#00838f" rx="5" /><rect x="629.5714285714286" y="336.5789845061829" width="42" height="0.007513007860707071" fill="#ef6c00" rx="5" /><rect x="629.5714285714286" y="336.5756981634858" width="42" height="0.003286342697063519" fill="#6a1b9a" rx="5" />
+      <text x="650.5714285714286" y="326.5756981634858" text-anchor="middle" font-size="11" fill="#0d3557">3.1M</text>
+      <text x="650.5714285714286" y="360" text-anchor="middle" font-size="11" fill="#476072">03-15</text>
+    
+      <rect x="706.7142857142857" y="332.83966892300083" width="42" height="5.160331076999187" fill="#2e7d32" rx="5" /><rect x="706.7142857142857" y="295.4802407214453" width="42" height="37.35942820155553" fill="#00838f" rx="5" /><rect x="706.7142857142857" y="295.35830008685406" width="42" height="0.1219406345912214" fill="#ef6c00" rx="5" /><rect x="706.7142857142857" y="295.2995857686124" width="42" height="0.05871431824164177" fill="#6a1b9a" rx="5" />
+      <text x="727.7142857142857" y="285.2995857686124" text-anchor="middle" font-size="11" fill="#0d3557">93.7M</text>
+      <text x="727.7142857142857" y="360" text-anchor="middle" font-size="11" fill="#476072">03-16</text>
+    
+      <rect x="783.8571428571428" y="304.5991662051201" width="42" height="33.40083379487988" fill="#2e7d32" rx="5" /><rect x="783.8571428571428" y="114.52612267773753" width="42" height="190.0730435273826" fill="#00838f" rx="5" /><rect x="783.8571428571428" y="113.47151798571969" width="42" height="1.054604692017848" fill="#ef6c00" rx="5" /><rect x="783.8571428571428" y="112.93700642483304" width="42" height="0.5345115608866085" fill="#6a1b9a" rx="5" />
+      <text x="804.8571428571428" y="102.93700642483304" text-anchor="middle" font-size="11" fill="#0d3557">493.8M</text>
+      <text x="804.8571428571428" y="360" text-anchor="middle" font-size="11" fill="#476072">03-17</text>
+    
+      <rect x="860.9999999999999" y="313.7653648852559" width="42" height="24.23463511474412" fill="#2e7d32" rx="5" /><rect x="860.9999999999999" y="232.22418866800007" width="42" height="81.54117621725582" fill="#00838f" rx="5" /><rect x="860.9999999999999" y="231.83313804463106" width="42" height="0.39105062336901314" fill="#ef6c00" rx="5" /><rect x="860.9999999999999" y="231.62417405265404" width="42" height="0.20896399197699922" fill="#6a1b9a" rx="5" />
+      <text x="881.9999999999999" y="221.62417405265404" text-anchor="middle" font-size="11" fill="#0d3557">233.4M</text>
+      <text x="881.9999999999999" y="360" text-anchor="middle" font-size="11" fill="#476072">03-18</text>
+    
+      <rect x="938.1428571428571" y="313.3372574434026" width="42" height="24.662742556597358" fill="#2e7d32" rx="5" /><rect x="938.1428571428571" y="181.90808956148146" width="42" height="131.42916788192116" fill="#00838f" rx="5" /><rect x="938.1428571428571" y="181.3166408599088" width="42" height="0.5914487015726538" fill="#ef6c00" rx="5" /><rect x="938.1428571428571" y="181.02268776123356" width="42" height="0.2939530986752605" fill="#6a1b9a" rx="5" />
+      <text x="959.1428571428571" y="171.02268776123356" text-anchor="middle" font-size="11" fill="#0d3557">344.4M</text>
+      <text x="959.1428571428571" y="360" text-anchor="middle" font-size="11" fill="#476072">03-19</text>
+    
+      <rect x="1015.2857142857142" y="335.64601506046125" width="42" height="2.353984939538755" fill="#2e7d32" rx="5" /><rect x="1015.2857142857142" y="318.1724516303785" width="42" height="17.47356343008275" fill="#00838f" rx="5" /><rect x="1015.2857142857142" y="318.08140763097737" width="42" height="0.09104399940114502" fill="#ef6c00" rx="5" /><rect x="1015.2857142857142" y="318.0350884310858" width="42" height="0.04631919989158001" fill="#6a1b9a" rx="5" />
+      <text x="1036.2857142857142" y="308.0350884310858" text-anchor="middle" font-size="11" fill="#0d3557">43.8M</text>
+      <text x="1036.2857142857142" y="360" text-anchor="middle" font-size="11" fill="#476072">03-20</text>
+    
+      <rect x="1092.4285714285713" y="336.680576252651" width="42" height="1.3194237473490162" fill="#2e7d32" rx="5" /><rect x="1092.4285714285713" y="322.5103259927659" width="42" height="14.170250259885101" fill="#00838f" rx="5" /><rect x="1092.4285714285713" y="322.43056631876715" width="42" height="0.07975967399875923" fill="#ef6c00" rx="5" /><rect x="1092.4285714285713" y="322.3956230607664" width="42" height="0.034943258000690786" fill="#6a1b9a" rx="5" />
+      <text x="1113.4285714285713" y="312.3956230607664" text-anchor="middle" font-size="11" fill="#0d3557">34.2M</text>
+      <text x="1113.4285714285713" y="360" text-anchor="middle" font-size="11" fill="#476072">03-21</text>
+    
+  
+      <rect x="72" y="392" width="16" height="12" fill="#2e7d32" rx="3" />
+      <text x="96" y="402" font-size="12" fill="#476072">Input</text>
+    
+      <rect x="242" y="392" width="16" height="12" fill="#00838f" rx="3" />
+      <text x="266" y="402" font-size="12" fill="#476072">Cached</text>
+    
+      <rect x="412" y="392" width="16" height="12" fill="#ef6c00" rx="3" />
+      <text x="436" y="402" font-size="12" fill="#476072">Output</text>
+    
+      <rect x="582" y="392" width="16" height="12" fill="#6a1b9a" rx="3" />
+      <text x="606" y="402" font-size="12" fill="#476072">Reasoning</text>
+    
+</svg>

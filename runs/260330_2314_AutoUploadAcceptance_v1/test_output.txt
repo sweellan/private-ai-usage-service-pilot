@@ -1,0 +1,18 @@
+✔ issueInternalUsageApiKey stores a vbu-prefixed key in state (1.806833ms)
+✔ server upload flow aggregates two members and exposes report endpoint (33.856667ms)
+✔ client init sync status works end-to-end against local server (6.470208ms)
+✔ loadMemberManifest resolves relative report paths from CSV (0.62975ms)
+✔ loadMemberManifest rejects duplicate member ids (0.242958ms)
+✔ aggregateTeamReports sums member, source, and daily totals correctly (5.89525ms)
+✔ writeTeamReportOutputs writes the expected artifact set (7.261166ms)
+✔ CLI generates report artifacts from fixture manifest (39.902166ms)
+✔ submission CLI wraps a local report into a single submission file (24.688ms)
+✔ collector CLI aggregates wrapped submission files (80.603459ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 201.865875

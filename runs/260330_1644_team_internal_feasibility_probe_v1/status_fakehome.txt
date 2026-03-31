@@ -1,0 +1,30 @@
+npm warn exec The following package was not found and will be installed: @vibe-cafe/vibe-usage@0.7.1
+
+vibe-usage status
+
+  Config: not configured
+  Run `npx @vibe-cafe/vibe-usage init` to set up.
+
+
+  Detected tools:
+    (none)
+
+  All supported tools:
+    Antigravity: not found
+    Claude Code: not found
+    Codex CLI: not found
+    GitHub Copilot CLI: not found
+    Gemini CLI: not found
+    OpenCode: not found
+    OpenClaw: not found
+    pi: not found
+    Qwen Code: not found
+    Kimi Code: not found
+    Amp: not found
+    Droid: not found
+
+npm notice
+npm notice New minor version of npm available! 11.7.0 -> 11.12.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1
+npm notice To update run: npm install -g npm@11.12.1
+npm notice

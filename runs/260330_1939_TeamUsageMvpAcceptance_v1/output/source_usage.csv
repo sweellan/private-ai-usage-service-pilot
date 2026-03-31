@@ -1,0 +1,4 @@
+source,member_count,total_tokens,input_tokens,cached_input_tokens,output_tokens,reasoning_output_tokens,total_buckets,total_sessions,total_active_seconds,total_duration_seconds,total_message_count
+codex,2,1900,700,750,350,100,4,8,6600,11400,80
+claude-code,1,800,200,200,250,150,2,2,1200,2400,20
+gemini-cli,1,300,100,100,50,50,1,2,1200,2400,15

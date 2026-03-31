@@ -1,0 +1,18 @@
+id: "project_260321_VibeUsagePrivacyCheck__temp"
+kind: "project"
+slug: "260321_VibeUsagePrivacyCheck__temp"
+title: "Vibe Usage Privacy Check"
+status: "active"
+created_at: "2026-03-21"
+updated_at: "2026-03-30"
+tags:
+  - workspace
+  - privacy
+  - npm
+  - cli
+  - usage-tracking
+object_tags:
+  - temp
+related_projects: []
+related_library_objects: []
+legacy_paths: []

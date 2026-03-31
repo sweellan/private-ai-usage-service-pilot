@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-03-30T15:19:21.853Z",
+  "teamName": "AutoUploadFixtureTeam",
+  "mode": "team-aggregated-local-usage-report",
+  "timezone": "Asia/Shanghai",
+  "sourceReportMode": "local-only-parser-report",
+  "networkRequestsMade": false,
+  "vendor": {
+    "repos": [
+      "https://github.com/vibe-cafe/vibe-usage.git"
+    ],
+    "commits": [
+      "fixture-alice",
+      "fixture-bob"
+    ]
+  },
+  "tokenTaxonomy": {
+    "principle": "MECE over the normalized local schema"
+  },
+  "summary": {
+    "teamName": "AutoUploadFixtureTeam",
+    "totalMembers": 2,
+    "totalReports": 2,
+    "totalTokens": 3000,
+    "inputTokens": 1000,
+    "cachedInputTokens": 1050,
+    "outputTokens": 650,
+    "reasoningOutputTokens": 300,
+    "legacyTotalTokensExcludingCachedInput": 1950,
+    "totalBuckets": 7,
+    "totalSessions": 12,
+    "totalActiveSeconds": 9000,
+    "totalDurationSeconds": 16200,
+    "parserSuccessCount": 4,
+    "parserErrorCount": 1,
+    "memberErrorCount": 1,
+    "networkRequestsMade": false,
+    "dailyRowCount": 3,
+    "sourceCount": 3
+  },
+  "byMember": [
+    {
+      "memberId": "bob",
+      "memberName": "Bob",
+      "team": "Infra",
+      "hostname": "bob-mbp",
+      "generatedAt": "2026-03-30T08:05:00.000Z",
+      "totalTokens": 2000,
+      "inputTokens": 700,
+      "cachedInputTokens": 650,
+      "outputTokens": 450,
+      "reasoningOutputTokens": 200,
+      "totalBuckets": 4,
+      "totalSessions": 7,
+      "totalActiveSeconds": 5400,
+      "totalDurationSeconds": 9000,
+      "parserSuccessCount": 2,
+      "parserErrorCount": 0,
+      "reportPath": "internal-upload:bob"
+    },
+    {
+      "memberId": "alice",
+      "memberName": "Alice",
+      "team": "Search",
+      "hostname": "alice-mbp",
+      "generatedAt": "2026-03-30T08:00:00.000Z",
+      "totalTokens": 1000,
+      "inputTokens": 300,
+      "cachedInputTokens": 400,
+      "outputTokens": 200,
+      "reasoningOutputTokens": 100,
+      "totalBuckets": 3,
+      "totalSessions": 5,
+      "totalActiveSeconds": 3600,
+      "totalDurationSeconds": 7200,
+      "parserSuccessCount": 2,
+      "parserErrorCount": 1,
+      "reportPath": "internal-upload:alice"
+    }
+  ],
+  "sourceUsage": [
+    {
+      "source": "codex",
+      "memberCount": 2,
+      "totalTokens": 1900,
+      "inputTokens": 700,
+      "cachedInputTokens": 750,
+      "outputTokens": 350,
+      "reasoningOutputTokens": 100,
+      "totalBuckets": 4,
+      "totalSessions": 8,
+      "totalActiveSeconds": 6600,
+      "totalDurationSeconds": 11400,
+      "totalMessageCount": 80
+    },
+    {
+      "source": "claude-code",
+      "memberCount": 1,
+      "totalTokens": 800,
+      "inputTokens": 200,
+      "cachedInputTokens": 200,
+      "outputTokens": 250,
+      "reasoningOutputTokens": 150,
+      "totalBuckets": 2,
+      "totalSessions": 2,
+      "totalActiveSeconds": 1200,
+      "totalDurationSeconds": 2400,
+      "totalMessageCount": 20
+    },
+    {
+      "source": "gemini-cli",
+      "memberCount": 1,
+      "totalTokens": 300,
+      "inputTokens": 100,
+      "cachedInputTokens": 100,
+      "outputTokens": 50,
+      "reasoningOutputTokens": 50,
+      "totalBuckets": 1,
+      "totalSessions": 2,
+      "totalActiveSeconds": 1200,
+      "totalDurationSeconds": 2400,
+      "totalMessageCount": 15
+    }
+  ],
+  "dailyUsage": [
+    {
+      "date": "2026-03-29",
+      "memberCount": 1,
+      "buckets": 2,
+      "sessionsStarted": 3,
+      "inputTokens": 180,
+      "cachedInputTokens": 250,
+      "outputTokens": 120,
+      "reasoningOutputTokens": 50,
+      "legacyTotalTokens": 350,
+      "accountedTotalTokens": 600
+    },
+    {
+      "date": "2026-03-30",
+      "memberCount": 2,
+      "buckets": 3,
+      "sessionsStarted": 5,
+      "inputTokens": 420,
+      "cachedInputTokens": 450,
+      "outputTokens": 280,
+      "reasoningOutputTokens": 150,
+      "legacyTotalTokens": 850,
+      "accountedTotalTokens": 1300
+    },
+    {
+      "date": "2026-03-31",
+      "memberCount": 1,
+      "buckets": 2,
+      "sessionsStarted": 4,
+      "inputTokens": 400,
+      "cachedInputTokens": 350,
+      "outputTokens": 250,
+      "reasoningOutputTokens": 100,
+      "legacyTotalTokens": 750,
+      "accountedTotalTokens": 1100
+    }
+  ],
+  "errors": [
+    {
+      "memberId": "alice",
+      "memberName": "Alice",
+      "team": "Search",
+      "source": "claude-code",
+      "error": "fixture parser error"
+    }
+  ],
+  "notes": {
+    "projectAggregationAvailable": false,
+    "reason": "Current local_usage_report.json only exposes truncated topProjects, so this team MVP does not aggregate project totals to avoid misleading partial sums."
+  }
+}

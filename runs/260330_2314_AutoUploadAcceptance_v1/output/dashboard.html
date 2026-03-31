@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>AutoUploadFixtureTeam Dashboard</title>
+  <style>
+    body { margin: 0; padding: 24px; font-family: "PingFang SC", "Noto Sans SC", sans-serif; background: linear-gradient(180deg, #eef5f8 0%, #f8fbfd 100%); color: #12344d; }
+    .wrap { max-width: 1280px; margin: 0 auto; display: grid; gap: 18px; }
+    .card { background: #fff; border: 1px solid #d7e3ef; border-radius: 18px; padding: 18px 20px; box-shadow: 0 10px 26px rgba(18, 52, 77, 0.06); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
+    .tile { border: 1px solid #d7e3ef; border-radius: 14px; padding: 12px 14px; background: #fbfdff; }
+    .label { color: #5b7385; font-size: 12px; margin-bottom: 4px; }
+    .value { font-size: 24px; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { border-bottom: 1px solid #d7e3ef; padding: 8px 10px; text-align: right; }
+    th:first-child, td:first-child, th:nth-child(2), td:nth-child(2), th:nth-child(3), td:nth-child(3) { text-align: left; }
+    a { color: #1565c0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>AutoUploadFixtureTeam</h1>
+      <div>生成时间：2026-03-30T15:18:48.082Z | setup：<a href="http://127.0.0.1:8787/usage/setup">http://127.0.0.1:8787/usage/setup</a></div>
+    </section>
+    <section class="card">
+      <div class="grid">
+        <div class="tile"><div class="label">总成员数</div><div class="value">1</div></div>
+        <div class="tile"><div class="label">总 tokens</div><div class="value">1,000</div></div>
+        <div class="tile"><div class="label">总 sessions</div><div class="value">5</div></div>
+        <div class="tile"><div class="label">已签发 key</div><div class="value">2</div></div>
+      </div>
+      <div class="grid" style="margin-top: 12px;">
+        <div class="tile"><div class="label">Input</div><div class="value">300</div></div>
+        <div class="tile"><div class="label">Cached</div><div class="value">400</div></div>
+        <div class="tile"><div class="label">Output</div><div class="value">200</div></div>
+        <div class="tile"><div class="label">Reasoning</div><div class="value">100</div></div>
+      </div>
+    </section>
+    <section class="card">
+      <h2>成员最新上传</h2>
+      <table>
+        <thead><tr><th>成员</th><th>团队</th><th>主机名</th><th>总 tokens</th><th>sessions</th><th>报告生成时间</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>Search</td>
+      <td>alice-mbp</td>
+      <td>1,000</td>
+      <td>5</td>
+      <td>2026-03-30T08:00:00.000Z</td>
+    </tr>
+  </tbody>
+      </table>
+    </section>
+    <section class="card">
+      <h2>来源汇总</h2>
+      <table>
+        <thead><tr><th>来源</th><th>覆盖成员</th><th>总 tokens</th><th>Cached</th><th>Sessions</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>codex</td>
+      <td>1</td>
+      <td>700</td>
+      <td>300</td>
+      <td>3</td>
+    </tr>
+  
+    <tr>
+      <td>gemini-cli</td>
+      <td>1</td>
+      <td>300</td>
+      <td>100</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+      </table>
+    </section>
+    <section class="card">
+      <h2>近 21 天趋势</h2>
+      <table>
+        <thead><tr><th>日期</th><th>活跃成员</th><th>总 tokens</th><th>Cached</th><th>Sessions Started</th></tr></thead>
+        <tbody>
+    <tr>
+      <td>2026-03-29</td>
+      <td>1</td>
+      <td>600</td>
+      <td>250</td>
+      <td>3</td>
+    </tr>
+  
+    <tr>
+      <td>2026-03-30</td>
+      <td>1</td>
+      <td>400</td>
+      <td>150</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2026-03-21T07:09:14.673Z",
+  "hostname": "MBP-D1HJ5HD6KV-1838.local",
+  "mode": "local-only-parser-report",
+  "networkRequestsMade": false,
+  "summary": {
+    "totalBuckets": 1570,
+    "totalSessions": 6000,
+    "totalTokens": 669452199,
+    "totalActiveSeconds": 11975064,
+    "totalDurationSeconds": 12598701,
+    "parserSuccessCount": 10,
+    "parserErrorCount": 0
+  },
+  "parserReports": [
+    {
+      "source": "codex",
+      "buckets": 1374,
+      "sessions": 1669,
+      "totalTokens": 630811429,
+      "activeSeconds": 11974866,
+      "durationSeconds": 12397029
+    },
+    {
+      "source": "gemini-cli",
+      "buckets": 182,
+      "sessions": 4296,
+      "totalTokens": 38382859,
+      "activeSeconds": 0,
+      "durationSeconds": 113868
+    },
+    {
+      "source": "claude-code",
+      "buckets": 12,
+      "sessions": 34,
+      "totalTokens": 150892,
+      "activeSeconds": 39,
+      "durationSeconds": 86836
+    },
+    {
+      "source": "opencode",
+      "buckets": 2,
+      "sessions": 1,
+      "totalTokens": 107019,
+      "activeSeconds": 159,
+      "durationSeconds": 968
+    },
+    {
+      "source": "copilot-cli",
+      "buckets": 0,
+      "sessions": 0,
+      "totalTokens": 0,
+      "activeSeconds": 0,
+      "durationSeconds": 0
+    },
+    {
+      "source": "openclaw",
+      "buckets": 0,
+      "sessions": 0,
+      "totalTokens": 0,
+      "activeSeconds": 0,
+      "durationSeconds": 0
+    },
+    {
+      "source": "qwen-code",
+      "buckets": 0,
+      "sessions": 0,
+      "totalTokens": 0,
+      "activeSeconds": 0,
+      "durationSeconds": 0
+    },
+    {
+      "source": "kimi-code",
+      "buckets": 0,
+      "sessions": 0,
+      "totalTokens": 0,
+      "activeSeconds": 0,
+      "durationSeconds": 0
+    },
+    {
+      "source": "amp",
+      "buckets": 0,
+      "sessions": 0,
+      "totalTokens": 0,
+      "activeSeconds": 0,
+      "durationSeconds": 0
+    },
+    {
+      "source": "droid",
+      "buckets": 0,
+      "sessions": 0,
+      "totalTokens": 0,
+      "activeSeconds": 0,
+      "durationSeconds": 0
+    }
+  ],
+  "sessionSources": [
+    {
+      "source": "gemini-cli",
+      "sessions": 4296,
+      "activeSeconds": 0,
+      "durationSeconds": 113868,
+      "messageCount": 8870
+    },
+    {
+      "source": "codex",
+      "sessions": 1669,
+      "activeSeconds": 11974866,
+      "durationSeconds": 12397029,
+      "messageCount": 274387
+    },
+    {
+      "source": "claude-code",
+      "sessions": 34,
+      "activeSeconds": 39,
+      "durationSeconds": 86836,
+      "messageCount": 154
+    },
+    {
+      "source": "opencode",
+      "sessions": 1,
+      "activeSeconds": 159,
+      "durationSeconds": 968,
+      "messageCount": 22
+    }
+  ],
+  "topProjects": [
+    {
+      "source": "codex",
+      "project": "Workspace",
+      "buckets": 163,
+      "totalTokens": 193713301
+    },
+    {
+      "source": "codex",
+      "project": "10_projects",
+      "buckets": 136,
+      "totalTokens": 173005071
+    },
+    {
+      "source": "codex",
+      "project": "20250418_Analysis_Agent_Eval",
+      "buckets": 249,
+      "totalTokens": 114042767
+    },
+    {
+      "source": "codex",
+      "project": "20250923_AgentInterns",
+      "buckets": 350,
+      "totalTokens": 74324161
+    },
+    {
+      "source": "gemini-cli",
+      "project": "unknown",
+      "buckets": 182,
+      "totalTokens": 38382859
+    },
+    {
+      "source": "codex",
+      "project": "20260202_OpenClaw",
+      "buckets": 56,
+      "totalTokens": 16586033
+    },
+    {
+      "source": "codex",
+      "project": "20250312_RepoCloneTests",
+      "buckets": 46,
+      "totalTokens": 14310575
+    },
+    {
+      "source": "codex",
+      "project": "30_library",
+      "buckets": 24,
+      "totalTokens": 12473637
+    },
+    {
+      "source": "codex",
+      "project": "memories",
+      "buckets": 66,
+      "totalTokens": 12378645
+    },
+    {
+      "source": "codex",
+      "project": ".codex",
+      "buckets": 14,
+      "totalTokens": 5752738
+    },
+    {
+      "source": "codex",
+      "project": "260311_timestamp_granularity_batch2",
+      "buckets": 4,
+      "totalTokens": 1418930
+    },
+    {
+      "source": "codex",
+      "project": "260311_InformationTechNewsWorkflow",
+      "buckets": 5,
+      "totalTokens": 1138880
+    },
+    {
+      "source": "codex",
+      "project": "eval",
+      "buckets": 5,
+      "totalTokens": 1000743
+    },
+    {
+      "source": "codex",
+      "project": "Projects",
+      "buckets": 6,
+      "totalTokens": 587639
+    },
+    {
+      "source": "codex",
+      "project": "yangchao",
+      "buckets": 6,
+      "totalTokens": 485871
+    },
+    {
+      "source": "codex",
+      "project": "agent-llm-router-hub",
+      "buckets": 3,
+      "totalTokens": 334828
+    },
+    {
+      "source": "codex",
+      "project": "platform_alibaba_002",
+      "buckets": 5,
+      "totalTokens": 333882
+    },
+    {
+      "source": "codex",
+      "project": "20260116_1108",
+      "buckets": 1,
+      "totalTokens": 307257
+    },
+    {
+      "source": "codex",
+      "project": "consumer_retail_002",
+      "buckets": 5,
+      "totalTokens": 291123
+    },
+    {
+      "source": "codex",
+      "project": "consumer_retail_001",
+      "buckets": 5,
+      "totalTokens": 280665
+    }
+  ],
+  "errors": []
+}

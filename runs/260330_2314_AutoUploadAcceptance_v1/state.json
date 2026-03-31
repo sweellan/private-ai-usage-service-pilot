@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "createdAt": "2026-03-30T15:14:41.888Z",
+  "apiKeys": [
+    {
+      "apiKey": "vbu_be9008b1db1f5f0aa68538c4e70e25597e12",
+      "memberId": "alice",
+      "memberName": "Alice",
+      "team": "Search",
+      "createdAt": "2026-03-30T15:14:41.889Z",
+      "revokedAt": null
+    },
+    {
+      "apiKey": "vbu_30d64bf840ade3b9fa8ac586f5fc0060b245",
+      "memberId": "bob",
+      "memberName": "Bob",
+      "team": "Infra",
+      "createdAt": "2026-03-30T15:18:22.902Z",
+      "revokedAt": null
+    }
+  ],
+  "latestSubmissions": {
+    "alice": {
+      "memberId": "alice",
+      "memberName": "Alice",
+      "team": "Search",
+      "apiKeyPrefix": "vbu_be9008b1",
+      "reportPath": "internal-upload:alice",
+      "submittedAt": "2026-03-30T15:17:19.983Z",
+      "report": {
+        "generatedAt": "2026-03-30T08:00:00.000Z",
+        "timezone": "Asia/Shanghai",
+        "hostname": "alice-mbp",
+        "mode": "local-only-parser-report",
+        "networkRequestsMade": false,
+        "vendor": {
+          "repo": "https://github.com/vibe-cafe/vibe-usage.git",
+          "commit": "fixture-alice"
+        },
+        "tokenTaxonomy": {
+          "principle": "MECE over the normalized local schema"
+        },
+        "summary": {
+          "totalBuckets": 3,
+          "totalSessions": 5,
+          "totalTokens": 1000,
+          "inputTokens": 300,
+          "cachedInputTokens": 400,
+          "outputTokens": 200,
+          "reasoningOutputTokens": 100,
+          "legacyTotalTokensExcludingCachedInput": 600,
+          "totalActiveSeconds": 3600,
+          "totalDurationSeconds": 7200,
+          "parserSuccessCount": 2,
+          "parserErrorCount": 1,
+          "dailyRowCount": 2
+        },
+        "parserReports": [
+          {
+            "source": "codex",
+            "buckets": 2,
+            "sessions": 3,
+            "inputTokens": 200,
+            "cachedInputTokens": 300,
+            "outputTokens": 150,
+            "reasoningOutputTokens": 50,
+            "totalTokens": 700,
+            "legacyTotalTokens": 400,
+            "activeSeconds": 2400,
+            "durationSeconds": 4800,
+            "messageCount": 30
+          },
+          {
+            "source": "gemini-cli",
+            "buckets": 1,
+            "sessions": 2,
+            "inputTokens": 100,
+            "cachedInputTokens": 100,
+            "outputTokens": 50,
+            "reasoningOutputTokens": 50,
+            "totalTokens": 300,
+            "legacyTotalTokens": 200,
+            "activeSeconds": 1200,
+            "durationSeconds": 2400,
+            "messageCount": 15
+          }
+        ],
+        "sessionSources": [
+          {
+            "source": "codex",
+            "sessions": 3,
+            "activeSeconds": 2400,
+            "durationSeconds": 4800,
+            "messageCount": 30
+          },
+          {
+            "source": "gemini-cli",
+            "sessions": 2,
+            "activeSeconds": 1200,
+            "durationSeconds": 2400,
+            "messageCount": 15
+          }
+        ],
+        "topProjects": [
+          {
+            "source": "codex",
+            "project": "alpha",
+            "buckets": 2,
+            "inputTokens": 200,
+            "cachedInputTokens": 300,
+            "outputTokens": 150,
+            "reasoningOutputTokens": 50,
+            "totalTokens": 700,
+            "legacyTotalTokens": 400
+          }
+        ],
+        "dailyUsage": [
+          {
+            "date": "2026-03-29",
+            "buckets": 2,
+            "sessionsStarted": 3,
+            "inputTokens": 180,
+            "cachedInputTokens": 250,
+            "outputTokens": 120,
+            "reasoningOutputTokens": 50,
+            "legacyTotalTokens": 350,
+            "accountedTotalTokens": 600
+          },
+          {
+            "date": "2026-03-30",
+            "buckets": 1,
+            "sessionsStarted": 2,
+            "inputTokens": 120,
+            "cachedInputTokens": 150,
+            "outputTokens": 80,
+            "reasoningOutputTokens": 50,
+            "legacyTotalTokens": 250,
+            "accountedTotalTokens": 400
+          }
+        ],
+        "errors": [
+          {
+            "source": "claude-code",
+            "error": "fixture parser error"
+          }
+        ]
+      }
+    },
+    "bob": {
+      "memberId": "bob",
+      "memberName": "Bob",
+      "team": "Infra",
+      "apiKeyPrefix": "vbu_30d64bf8",
+      "reportPath": "internal-upload:bob",
+      "submittedAt": "2026-03-30T15:18:48.172Z",
+      "report": {
+        "generatedAt": "2026-03-30T08:05:00.000Z",
+        "timezone": "Asia/Shanghai",
+        "hostname": "bob-mbp",
+        "mode": "local-only-parser-report",
+        "networkRequestsMade": false,
+        "vendor": {
+          "repo": "https://github.com/vibe-cafe/vibe-usage.git",
+          "commit": "fixture-bob"
+        },
+        "tokenTaxonomy": {
+          "principle": "MECE over the normalized local schema"
+        },
+        "summary": {
+          "totalBuckets": 4,
+          "totalSessions": 7,
+          "totalTokens": 2000,
+          "inputTokens": 700,
+          "cachedInputTokens": 650,
+          "outputTokens": 450,
+          "reasoningOutputTokens": 200,
+          "legacyTotalTokensExcludingCachedInput": 1350,
+          "totalActiveSeconds": 5400,
+          "totalDurationSeconds": 9000,
+          "parserSuccessCount": 2,
+          "parserErrorCount": 0,
+          "dailyRowCount": 2
+        },
+        "parserReports": [
+          {
+            "source": "codex",
+            "buckets": 2,
+            "sessions": 5,
+            "inputTokens": 500,
+            "cachedInputTokens": 450,
+            "outputTokens": 200,
+            "reasoningOutputTokens": 50,
+            "totalTokens": 1200,
+            "legacyTotalTokens": 750,
+            "activeSeconds": 4200,
+            "durationSeconds": 6600,
+            "messageCount": 50
+          },
+          {
+            "source": "claude-code",
+            "buckets": 2,
+            "sessions": 2,
+            "inputTokens": 200,
+            "cachedInputTokens": 200,
+            "outputTokens": 250,
+            "reasoningOutputTokens": 150,
+            "totalTokens": 800,
+            "legacyTotalTokens": 600,
+            "activeSeconds": 1200,
+            "durationSeconds": 2400,
+            "messageCount": 20
+          }
+        ],
+        "sessionSources": [
+          {
+            "source": "codex",
+            "sessions": 5,
+            "activeSeconds": 4200,
+            "durationSeconds": 6600,
+            "messageCount": 50
+          },
+          {
+            "source": "claude-code",
+            "sessions": 2,
+            "activeSeconds": 1200,
+            "durationSeconds": 2400,
+            "messageCount": 20
+          }
+        ],
+        "topProjects": [
+          {
+            "source": "codex",
+            "project": "beta",
+            "buckets": 2,
+            "inputTokens": 500,
+            "cachedInputTokens": 450,
+            "outputTokens": 200,
+            "reasoningOutputTokens": 50,
+            "totalTokens": 1200,
+            "legacyTotalTokens": 750
+          }
+        ],
+        "dailyUsage": [
+          {
+            "date": "2026-03-30",
+            "buckets": 2,
+            "sessionsStarted": 3,
+            "inputTokens": 300,
+            "cachedInputTokens": 300,
+            "outputTokens": 200,
+            "reasoningOutputTokens": 100,
+            "legacyTotalTokens": 600,
+            "accountedTotalTokens": 900
+          },
+          {
+            "date": "2026-03-31",
+            "buckets": 2,
+            "sessionsStarted": 4,
+            "inputTokens": 400,
+            "cachedInputTokens": 350,
+            "outputTokens": 250,
+            "reasoningOutputTokens": 100,
+            "legacyTotalTokens": 750,
+            "accountedTotalTokens": 1100
+          }
+        ],
+        "errors": []
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+You are now acting as the server-side operator for an internal AI coding usage auto-upload service.
+
+Use your own environment on the OpenClaw host as the service side.
+Goal: set up a minimal usable service that supports:
+1. issuing API keys for members
+2. receiving member uploads
+3. showing a usable dashboard/setup page in browser
+
+Requirements:
+- Treat this DM thread as the control channel.
+- First do a quick self-check and only proceed if you can complete an end-to-end local test yourself.
+- Do not give me a plan only. Execute.
+- When done, reply with exactly these fields:
+  - status
+  - setup_url
+  - dashboard_url
+  - issued_members
+  - local_test_result
+  - notes
+
+Seed members for local self-test:
+- alice | Alice | Search
+- bob | Bob | Infra
+
+Minimum acceptance bar:
+- service is running
+- two test member uploads succeeded
+- dashboard shows aggregated result for 2 members
+- your reply includes setup_url and dashboard_url
+
+If you need to create files, keep them in your workspace and choose clear names. Prefer a minimal implementation over a large one.

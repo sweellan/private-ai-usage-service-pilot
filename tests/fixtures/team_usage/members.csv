@@ -1,0 +1,3 @@
+member_id,member_name,team,report_path
+alice,Alice,Search,alice_local_usage_report.json
+bob,Bob,Infra,bob_local_usage_report.json

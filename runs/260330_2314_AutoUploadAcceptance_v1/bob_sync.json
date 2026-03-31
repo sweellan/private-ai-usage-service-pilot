@@ -1,0 +1,6 @@
+{
+  "reportPath": "/Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/tests/fixtures/team_usage/bob_local_usage_report.json",
+  "uploadResult": {
+    "error": "UNAUTHORIZED"
+  }
+}

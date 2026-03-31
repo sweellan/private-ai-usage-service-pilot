@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="380" viewBox="0 0 1180 380">
+  <rect width="1180" height="380" fill="#f8fbfd" rx="18" />
+  <text x="72" y="24" font-size="18" font-weight="700" fill="#12344d">近14天按日总 tokens 趋势</text>
+  <text x="72" y="46" font-size="12" fill="#5b7385">口径：input + cached_input_read + output + reasoning_output</text>
+  
+      <line x1="72" y1="298" x2="1152" y2="298" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="302" text-anchor="end" font-size="12" fill="#476072">0</text>
+    
+      <line x1="72" y1="232.00000005728498" x2="1152" y2="232.00000005728498" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="236.00000005728498" text-anchor="end" font-size="12" fill="#476072">138.3M</text>
+    
+      <line x1="72" y1="166.00000011456993" x2="1152" y2="166.00000011456993" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="170.00000011456993" text-anchor="end" font-size="12" fill="#476072">276.5M</text>
+    
+      <line x1="72" y1="100.00000017185488" x2="1152" y2="100.00000017185488" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="104.00000017185488" text-anchor="end" font-size="12" fill="#476072">414.8M</text>
+    
+      <line x1="72" y1="34.00000022913986" x2="1152" y2="34.00000022913986" stroke="#d7e3ef" stroke-width="1" />
+      <text x="62" y="38.00000022913986" text-anchor="end" font-size="12" fill="#476072">553M</text>
+    
+  <polyline fill="none" stroke="#1565c0" stroke-width="3" points="72,253.27875338202108 155.0769230769231,62.285714285714306 238.15384615384616,186.58985019200205 321.2307692307692,133.59360675014167 404.3076923076923,278.89308148654357 487.3846153846154,264.0023625713623 570.4615384615385,292.14641998234384 653.5384615384615,238.63151036200892 736.6153846153846,183.70724550795023 819.6923076923077,287.88338276546415 902.7692307692308,230.01676787425941 985.8461538461539,241.77202054626028 1068.923076923077,279.6074961151435 1152,277.01129811032774" />
+  
+      <circle cx="72" cy="253.27875338202108" r="4.5" fill="#1565c0" />
+      <text x="72" y="243.27875338202108" text-anchor="middle" font-size="11" fill="#0d3557">93.7M</text>
+      <text x="72" y="320" text-anchor="middle" font-size="11" fill="#476072">03-16</text>
+    
+      <circle cx="155.0769230769231" cy="62.285714285714306" r="4.5" fill="#1565c0" />
+      <text x="155.0769230769231" y="52.285714285714306" text-anchor="middle" font-size="11" fill="#0d3557">493.8M</text>
+      <text x="155.0769230769231" y="320" text-anchor="middle" font-size="11" fill="#476072">03-17</text>
+    
+      <circle cx="238.15384615384616" cy="186.58985019200205" r="4.5" fill="#1565c0" />
+      <text x="238.15384615384616" y="176.58985019200205" text-anchor="middle" font-size="11" fill="#0d3557">233.4M</text>
+      <text x="238.15384615384616" y="320" text-anchor="middle" font-size="11" fill="#476072">03-18</text>
+    
+      <circle cx="321.2307692307692" cy="133.59360675014167" r="4.5" fill="#1565c0" />
+      <text x="321.2307692307692" y="123.59360675014167" text-anchor="middle" font-size="11" fill="#0d3557">344.4M</text>
+      <text x="321.2307692307692" y="320" text-anchor="middle" font-size="11" fill="#476072">03-19</text>
+    
+      <circle cx="404.3076923076923" cy="278.89308148654357" r="4.5" fill="#1565c0" />
+      <text x="404.3076923076923" y="268.89308148654357" text-anchor="middle" font-size="11" fill="#0d3557">40M</text>
+      <text x="404.3076923076923" y="320" text-anchor="middle" font-size="11" fill="#476072">03-20</text>
+    
+      <circle cx="487.3846153846154" cy="264.0023625713623" r="4.5" fill="#1565c0" />
+      <text x="487.3846153846154" y="254.0023625713623" text-anchor="middle" font-size="11" fill="#0d3557">71.2M</text>
+      <text x="487.3846153846154" y="320" text-anchor="middle" font-size="11" fill="#476072">03-21</text>
+    
+      <circle cx="570.4615384615385" cy="292.14641998234384" r="4.5" fill="#1565c0" />
+      <text x="570.4615384615385" y="282.14641998234384" text-anchor="middle" font-size="11" fill="#0d3557">12.3M</text>
+      <text x="570.4615384615385" y="320" text-anchor="middle" font-size="11" fill="#476072">03-22</text>
+    
+      <circle cx="653.5384615384615" cy="238.63151036200892" r="4.5" fill="#1565c0" />
+      <text x="653.5384615384615" y="228.63151036200892" text-anchor="middle" font-size="11" fill="#0d3557">124.4M</text>
+      
+    
+      <circle cx="736.6153846153846" cy="183.70724550795023" r="4.5" fill="#1565c0" />
+      <text x="736.6153846153846" y="173.70724550795023" text-anchor="middle" font-size="11" fill="#0d3557">239.4M</text>
+      
+    
+      <circle cx="819.6923076923077" cy="287.88338276546415" r="4.5" fill="#1565c0" />
+      <text x="819.6923076923077" y="277.88338276546415" text-anchor="middle" font-size="11" fill="#0d3557">21.2M</text>
+      <text x="819.6923076923077" y="320" text-anchor="middle" font-size="11" fill="#476072">03-25</text>
+    
+      <circle cx="902.7692307692308" cy="230.01676787425941" r="4.5" fill="#1565c0" />
+      <text x="902.7692307692308" y="220.01676787425941" text-anchor="middle" font-size="11" fill="#0d3557">142.4M</text>
+      
+    
+      <circle cx="985.8461538461539" cy="241.77202054626028" r="4.5" fill="#1565c0" />
+      <text x="985.8461538461539" y="231.77202054626028" text-anchor="middle" font-size="11" fill="#0d3557">117.8M</text>
+      <text x="985.8461538461539" y="320" text-anchor="middle" font-size="11" fill="#476072">03-27</text>
+    
+      <circle cx="1068.923076923077" cy="279.6074961151435" r="4.5" fill="#1565c0" />
+      <text x="1068.923076923077" y="269.6074961151435" text-anchor="middle" font-size="11" fill="#0d3557">38.5M</text>
+      
+    
+      <circle cx="1152" cy="277.01129811032774" r="4.5" fill="#1565c0" />
+      <text x="1152" y="267.01129811032774" text-anchor="middle" font-size="11" fill="#0d3557">44M</text>
+      <text x="1152" y="320" text-anchor="middle" font-size="11" fill="#476072">03-30</text>
+    
+</svg>

@@ -1,0 +1,29 @@
+{
+  "reportPath": "/Users/yangchao/Sync/Meituan/Workspace/10_projects/260321_VibeUsagePrivacyCheck__temp/tests/fixtures/team_usage/bob_local_usage_report.json",
+  "uploadResult": {
+    "ok": true,
+    "memberId": "bob",
+    "submittedAt": "2026-03-30T15:18:48.172Z",
+    "summary": {
+      "teamName": "AutoUploadFixtureTeam",
+      "totalMembers": 2,
+      "totalReports": 2,
+      "totalTokens": 3000,
+      "inputTokens": 1000,
+      "cachedInputTokens": 1050,
+      "outputTokens": 650,
+      "reasoningOutputTokens": 300,
+      "legacyTotalTokensExcludingCachedInput": 1950,
+      "totalBuckets": 7,
+      "totalSessions": 12,
+      "totalActiveSeconds": 9000,
+      "totalDurationSeconds": 16200,
+      "parserSuccessCount": 4,
+      "parserErrorCount": 1,
+      "memberErrorCount": 1,
+      "networkRequestsMade": false,
+      "dailyRowCount": 3,
+      "sourceCount": 3
+    }
+  }
+}

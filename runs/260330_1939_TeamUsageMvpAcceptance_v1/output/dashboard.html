@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>Fixture Team MVP Usage Dashboard</title>
+  <style>
+    :root {
+      --bg: #f4f7f9;
+      --card: #ffffff;
+      --ink: #12344d;
+      --muted: #5b7385;
+      --line: #d7e3ef;
+      --accent: #1565c0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #eef5f8 0%, #f8fbfd 100%);
+    }
+    .wrap { max-width: 1280px; margin: 0 auto; display: grid; gap: 18px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px 20px;
+      box-shadow: 0 10px 26px rgba(18, 52, 77, 0.06);
+    }
+    h1, h2 { margin: 0 0 12px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+    }
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px 14px;
+      background: #fbfdff;
+    }
+    .label { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+    .value { font-size: 24px; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: right; }
+    th:first-child, td:first-child { text-align: left; }
+    th:nth-child(2), td:nth-child(2), th:nth-child(3), td:nth-child(3) { text-align: left; }
+    .small { color: var(--muted); font-size: 13px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>团队内部 Usage 统计</h1>
+      <div class="small">团队名：Fixture Team MVP | 生成时间：2026-03-30T11:39:05.737Z | 时区：Asia/Shanghai</div>
+    </section>
+    <section class="card">
+      <h2>总览</h2>
+      <div class="grid">
+        <div class="tile"><div class="label">总成员数</div><div class="value">2</div></div>
+        <div class="tile"><div class="label">总 tokens</div><div class="value">3,000</div></div>
+        <div class="tile"><div class="label">总 sessions</div><div class="value">12</div></div>
+        <div class="tile"><div class="label">来源数</div><div class="value">3</div></div>
+      </div>
+      <div class="grid" style="margin-top: 12px;">
+        <div class="tile"><div class="label">Input</div><div class="value">1,000</div></div>
+        <div class="tile"><div class="label">Cached</div><div class="value">1,050</div></div>
+        <div class="tile"><div class="label">Output</div><div class="value">650</div></div>
+        <div class="tile"><div class="label">Reasoning</div><div class="value">300</div></div>
+      </div>
+    </section>
+    <section class="card">
+      <h2>成员榜单</h2>
+      <table>
+        <thead>
+          <tr><th>成员</th><th>团队</th><th>主机名</th><th>总 tokens</th><th>Cached</th><th>Sessions</th></tr>
+        </thead>
+        <tbody>
+    <tr>
+      <td>Bob</td>
+      <td>Infra</td>
+      <td>bob-mbp</td>
+      <td>2,000</td>
+      <td>650</td>
+      <td>7</td>
+    </tr>
+  
+    <tr>
+      <td>Alice</td>
+      <td>Search</td>
+      <td>alice-mbp</td>
+      <td>1,000</td>
+      <td>400</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+      </table>
+    </section>
+    <section class="card">
+      <h2>来源汇总</h2>
+      <table>
+        <thead>
+          <tr><th>来源</th><th>覆盖成员</th><th>总 tokens</th><th>Cached</th><th>Sessions</th></tr>
+        </thead>
+        <tbody>
+    <tr>
+      <td>codex</td>
+      <td>2</td>
+      <td>1,900</td>
+      <td>750</td>
+      <td>8</td>
+    </tr>
+  
+    <tr>
+      <td>claude-code</td>
+      <td>1</td>
+      <td>800</td>
+      <td>200</td>
+      <td>2</td>
+    </tr>
+  
+    <tr>
+      <td>gemini-cli</td>
+      <td>1</td>
+      <td>300</td>
+      <td>100</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+      </table>
+    </section>
+    <section class="card">
+      <h2>近 21 天团队趋势</h2>
+      <table>
+        <thead>
+          <tr><th>日期</th><th>活跃成员</th><th>总 tokens</th><th>Cached</th><th>Sessions Started</th></tr>
+        </thead>
+        <tbody>
+    <tr>
+      <td>2026-03-29</td>
+      <td>1</td>
+      <td>600</td>
+      <td>250</td>
+      <td>3</td>
+    </tr>
+  
+    <tr>
+      <td>2026-03-30</td>
+      <td>2</td>
+      <td>1,300</td>
+      <td>450</td>
+      <td>5</td>
+    </tr>
+  
+    <tr>
+      <td>2026-03-31</td>
+      <td>1</td>
+      <td>1,100</td>
+      <td>350</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+      </table>
+      <p class="small">当前 MVP 不做项目聚合，因为现有个人版 local_usage_report.json 只暴露截断后的 topProjects，直接相加会产生误导性的部分和。</p>
+    </section>
+  </div>
+</body>
+</html>

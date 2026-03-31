@@ -1,0 +1,20 @@
+We are keeping this as a long-term service. Please stop using the temporary trycloudflare URL and mount the existing public host https://versicolor-charla-nonmutinously.ngrok-free.dev/ behind nginx branching on stable subpaths, without breaking the current root path OpenClaw Control page.
+
+Requirements:
+- Keep the root path / unchanged.
+- Mount the usage service on stable subpaths under this existing host.
+- Prefer exactly:
+  - https://versicolor-charla-nonmutinously.ngrok-free.dev/ai-usage/setup
+  - https://versicolor-charla-nonmutinously.ngrok-free.dev/ai-usage/dashboard
+- If you must choose a slightly different subpath, keep it short and stable, and say why.
+- Update any page-internal links so setup/dashboard use the new public host + subpath, not localhost and not trycloudflare.
+- Re-run end-to-end local test after the move.
+- Then externally verify the final public setup/dashboard URLs over HTTPS.
+
+When done, reply with exactly:
+- status
+- public_setup_url
+- public_dashboard_url
+- public_access_test_result
+- compatibility_note
+- notes

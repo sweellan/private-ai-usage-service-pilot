@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-03-21T17:01:31",
+  "task_label": "vibe_usage_chart_yaxis_acceptance_flash",
+  "requested_profile": "auto",
+  "resolved_profile": "agent_simple",
+  "profile_decision": {
+    "mode": "model",
+    "judge_model_key": "gemini_30_flash_preview",
+    "judge_reason": "需要读取本地截图文件并进行分析，涉及文件工具操作，任务目标明确且相对单一。",
+    "judge_confidence": 1,
+    "judge_attempts": [
+      {
+        "model_key": "gemini_30_flash_preview",
+        "ok": true,
+        "return_code": 0,
+        "error": "YOLO mode is enabled. All tool calls will be automatically approved.\nLoaded cached credentials."
+      }
+    ]
+  },
+  "execution_mode": "auto",
+  "chain": [
+    "gemini_30_flash_preview"
+  ],
+  "max_budget_usd": 3.0,
+  "max_output_tokens": null
+}
