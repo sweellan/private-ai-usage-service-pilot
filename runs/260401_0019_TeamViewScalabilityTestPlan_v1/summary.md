@@ -19,6 +19,18 @@
 
 ## 测试分层
 
+## 覆盖边界
+- 自动化测试负责机器可判定的规则：
+  - 排序
+  - 全员展示不截断
+  - sparse label 选点规则
+  - 成员切换器存在
+- 截图验收负责视觉与交互结果：
+  - 图形方向是否符合预期
+  - 数据标签是否拥挤
+  - 默认窗口是否可读
+  - 滑块拖动后是否仍稳定
+
 ## Test Cases
 - `TC-01 Team switcher scales`
   - dense-team admin 视图只保留 `Team` 主入口 + member dropdown
@@ -44,6 +56,10 @@
 - `TC-08 Remote parity`
   - 远端 HTML 必须包含最新 team view 标记
   - 远端截图必须与本地验收方向一致
+- `TC-09 Dense label sparsity`
+  - 团队 dense 默认态只显示少量锚点数据标签
+  - 默认口径：最大值、若干四分位点、最小值
+  - 不允许所有成员标签在同一时间点全部堆叠
 
 ### 1. 逻辑层自动化测试
 - 文件：
@@ -137,9 +153,9 @@
 ## 本轮执行结果
 - 逻辑测试：
   - `node --test tests/private_usage_service.test.mjs`
-  - 结果：`pass 3 / fail 0`
+  - 结果：`pass 4 / fail 0`
 - 本地 dense preview 已自验通过：
-  - `screenshots/dense_team_default_v5.png`
+  - `screenshots/dense_team_default_v7.png`
   - `screenshots/dense_team_member_selected_v2.png`
   - `screenshots/dense_team_member_view_v2.png`
   - `screenshots/dense_team_window_dragged_v2.png`
@@ -148,6 +164,6 @@
   - 网页返回已包含 `团队分周期成员对比`
   - 网页返回已包含“所有成员都会展示”的 team 说明文案
   - 远端截图：
-    - `remote_screenshots/remote_team_default_v3.png`
+    - `remote_screenshots/remote_team_default_v4.png`
 - GitHub：
   - private repo: `https://github.com/sweellan/private-ai-usage-service-pilot`

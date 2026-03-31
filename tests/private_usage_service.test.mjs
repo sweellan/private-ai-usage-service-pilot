@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 import {
+  buildSparseLabelIndices,
   buildTeamRankingSnapshot,
   createInMemoryPrivateUsageStore,
   createPrivateUsageServer,
@@ -227,4 +228,11 @@ test('team ranking snapshot keeps all members and sorts by current period descen
   for (let index = 1; index < snapshot.rows.length; index += 1) {
     assert.ok(snapshot.rows[index - 1].currentTokens >= snapshot.rows[index].currentTokens);
   }
+});
+
+test('sparse team data labels keep endpoints and a few interior anchors', () => {
+  assert.deepEqual(buildSparseLabelIndices(0), []);
+  assert.deepEqual(buildSparseLabelIndices(3), [0, 1, 2]);
+  assert.deepEqual(buildSparseLabelIndices(12), [0, 2, 5, 8, 11]);
+  assert.deepEqual(buildSparseLabelIndices(20), [0, 4, 9, 14, 19]);
 });
