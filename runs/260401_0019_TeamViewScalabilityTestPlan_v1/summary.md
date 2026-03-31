@@ -19,6 +19,32 @@
 
 ## 测试分层
 
+## Test Cases
+- `TC-01 Team switcher scales`
+  - dense-team admin 视图只保留 `Team` 主入口 + member dropdown
+  - 不再出现成员按钮整排铺开
+- `TC-02 Team chart keeps all members`
+  - 12+ 人 dense-team 场景下，team 图展示所有成员
+  - 不做 `Top N` 截断，不做 `Others` 聚合
+- `TC-03 Team chart ordering`
+  - team 图成员顺序按当前结束周期 tokens 降序
+  - 左侧成员表顺序与 team 图一致
+- `TC-04 Team chart geometry`
+  - team 图采用“一个时间点一簇竖柱子”的 grouped bars
+  - member 图仍是单成员 stacked bars
+- `TC-05 Width stability`
+  - 拖动时间滑块时主框宽度不变化
+  - 只改变窗口范围与图内密度
+- `TC-06 Member detail dates visible`
+  - 成员每日明细表第一列必须显示日期/周期
+  - 不允许出现空白日期列
+- `TC-07 Dense default readability`
+  - dense-team 默认 team 窗口必须是可读近窗口
+  - 当前实现口径：day 粒度 + 12 人时默认最近 7 个周期
+- `TC-08 Remote parity`
+  - 远端 HTML 必须包含最新 team view 标记
+  - 远端截图必须与本地验收方向一致
+
 ### 1. 逻辑层自动化测试
 - 文件：
   - `tests/private_usage_service.test.mjs`
@@ -113,15 +139,15 @@
   - `node --test tests/private_usage_service.test.mjs`
   - 结果：`pass 3 / fail 0`
 - 本地 dense preview 已自验通过：
-  - `screenshots/dense_team_default_v1.png`
+  - `screenshots/dense_team_default_v5.png`
   - `screenshots/dense_team_member_selected_v2.png`
-  - `screenshots/dense_team_member_view_v1.png`
+  - `screenshots/dense_team_member_view_v2.png`
   - `screenshots/dense_team_window_dragged_v2.png`
 - 远端已部署并复验：
   - 网页返回已包含 `memberSelect`
-  - 网页返回已包含 `团队当前周期排名`
-  - 网页返回已包含 `All members sorted by current period`
+  - 网页返回已包含 `团队分周期成员对比`
+  - 网页返回已包含“所有成员都会展示”的 team 说明文案
   - 远端截图：
-    - `remote_screenshots/remote_team_default_v2.png`
+    - `remote_screenshots/remote_team_default_v3.png`
 - GitHub：
   - private repo: `https://github.com/sweellan/private-ai-usage-service-pilot`
