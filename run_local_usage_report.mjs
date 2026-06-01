@@ -3,7 +3,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { hostname } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { execFileSync } from 'node:child_process';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -384,7 +384,7 @@ if (!outputDirArg) {
 const outputDir = resolve(outputDirArg);
 mkdirSync(outputDir, { recursive: true });
 
-const { parsers } = await import(join(VENDOR_DIR, 'src', 'parsers', 'index.js'));
+const { parsers } = await import(pathToFileURL(join(VENDOR_DIR, 'src', 'parsers', 'index.js')).href);
 
 const parserReports = [];
 const allBuckets = [];

@@ -6,3 +6,4 @@
 - 2026-03-30: 团队聚合 MVP 实现时发现，个人版 `local_usage_report.json` 里的 `topProjects` 是截断视图而非全量明细；团队层默认宁可暂不做项目聚合，也不要把部分和伪装成总量。
 - 2026-03-31: 当系统准备走向 public repo 时，public/private 边界必须先于部署推进明确：prompt、真实 URL、端口、API key、OpenClaw 运维细节都不能跟着公开代码一起走；RBAC 设计应由本地主 Agent 主导，OpenClaw 只负责后续同步部署。
 - 2026-03-31: 这条线的重复摩擦不是布局能力缺失，而是缺少“本地 no-auth 预览 + team/member 截图自验”的硬闸门；后续只要涉及页面改动，默认先做真实截图验收，再决定是否对外交付。
+- 2026-06-01: Windows 端复核 Codex usage 时发现两类可复用边界：一是旧测试和脚本里仍有 Mac 绝对路径，跨机 clone 后会批量 ENOENT；二是 Codex forked session 的 replay 通过 `forked_from_id` 暴露，统计时应按 fork root 做 `total_token_usage` high-water delta，而不是逐文件累加 `last_token_usage`。
